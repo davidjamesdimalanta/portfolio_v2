@@ -52,7 +52,7 @@ const Navbar = () => {
     if (!renderNavbar) return null;
 
     return (
-      <nav className={`fixed top-0 w-screen h-auto bg-[#143306] flex justify-between items-center p-6 shadow-sm z-50 ${navbarAnimation}`}>
+      <nav className={`fixed top-0 w-screen h-max bg-[#143306] flex justify-between items-center p-4 md:p-6 shadow-sm z-50 ${navbarAnimation}`}>
         <Link href={"/"}>
           <svg width="28.782" height="32.668" version="1.1" viewBox="0 0 6.028 6.527" xmlns="http://www.w3.org/2000/svg" className='hover:cursor-pointer'>
               <g clipRule="evenodd" fill="#fffdd0" fillRule="evenodd" imageRendering="optimizeQuality" shapeRendering="geometricPrecision">
