@@ -5,11 +5,11 @@ import 'app/globals.css'
 export default function Landing() {
     return(
         <main id="landing" className="w-screen h-[100vh] md:h-screen flex flex-col justify-center items-center">
-            <div className="w-[80vw] md:w-[70vw] h-[90vh] md:h-[70vh] flex flex-col justify-center items-start gap-2">
+            <div className="w-[80vw] md:w-[70vw] h-screen md:h-[70vh] flex flex-col justify-center items-start gap-2">
                 <h1 className="font-thin text-2xl" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="300" data-aos-anchor="#landing">
                     Hello, my name is
                 </h1>
-                <span className="font-bold text-7xl" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="500" data-aos-anchor="#landing">
+                <span className="font-bold text-6xl md:text-7xl" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="500" data-aos-anchor="#landing">
                     David James Dimalanta
                 </span>
                 <h3 className="font-thin text-3xl pb-6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1500" data-aos-anchor="#landing">

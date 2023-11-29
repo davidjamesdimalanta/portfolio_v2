@@ -20,9 +20,9 @@ export default function Home() {
 
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 2500); // 3000 milliseconds = 3 seconds
+    }, 2500);
 
-    return () => clearTimeout(timer); // Cleanup the timer
+    return () => clearTimeout(timer);
   }, []);
 
   if (showSplash) {
