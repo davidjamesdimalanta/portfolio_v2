@@ -6,7 +6,7 @@ import projectdata from '../data/projectdata';
 
 
 export default function ProjectList({ imgUrl, title, desc, tags, width, height, gitLink, webLink }) {
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
     const [maxHeight, setMaxHeight] = useState('0px'); // Initialize with '0px'
     const contentRef = useRef(null);
 
@@ -55,8 +55,8 @@ export default function ProjectList({ imgUrl, title, desc, tags, width, height, 
                 ref={contentRef}
                 style={{ maxHeight: maxHeight }}
                 className="transition-[max-height] duration-700 ease-in-out overflow-hidden">
-                <div className="w-full h-auto flex flex-col md:flex-row justify-start md:justify-center items-center">
-                    <div className="relative w-full md:w-1/2 flex justify-center md:justify-start items-center p-4">
+                <div className="w-full h-auto flex flex-col md:flex-row-reverse justify-start md:justify-center items-center">
+                    <div className="relative w-full md:w-1/2 flex justify-center md:justify-center items-center p-4">
                         <div 
                             className="absolute inset-0 bg-[#143306] w-auto h-auto opacity-30 z-20"
                         ></div>
@@ -69,11 +69,11 @@ export default function ProjectList({ imgUrl, title, desc, tags, width, height, 
                         />
                     </div>
 
-                    <div className="w-full md:w-1/2 flex flex-col justify-between items-center md:items-end text-center md:text-end">
+                    <div className="w-full md:w-1/2 flex flex-col justify-between items-center md:items-start text-center md:text-start">
                         {desc}
-                        <div className="py-10 flex flex-wrap gap-2 justify-center items-center md:justify-end">
+                        <div className="py-10 flex flex-wrap gap-2 justify-center items-center md:justify-start">
                             {tags.map((tag, index) => (
-                                <span key={tag} className="text-sm font-thin px-2 py-1 rounded">
+                                <span key={tag} className="text-lg font-thin px-2 py-1 rounded">
                                     {tag}
                                 </span>
                             ))}
