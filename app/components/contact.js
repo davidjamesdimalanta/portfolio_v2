@@ -17,17 +17,17 @@ export default function Contact() {
                     </h3>
                     <div className="flex gap-4">
                         <a href="mailto:david.dimalanta@mail.utoronto.ca">
-                            <button className=" text-[#FFFDD0] border-[#FFFDD0] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1000" data-aos-anchor="#contact-text">
+                            <button className=" text-[#121314] border-[#121314] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1000" data-aos-anchor="#contact-text">
                                 Say Hi!
                             </button>
                         </a>
                         <a href="/David James Dimalanta Resume.pdf" download>
-                            <button className=" text-[#FFFDD0] border-[#FFFDD0] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1100" data-aos-anchor="#contact-text">
+                            <button className=" text-[#121314] border-[#121314] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1100" data-aos-anchor="#contact-text">
                                 CV
                             </button>
                         </a>
                         <a href="/2023CV.pdf" className="hidden md:block" download>
-                            <button className=" text-[#FFFDD0] border-[#FFFDD0] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1200" data-aos-anchor="#contact-text">
+                            <button className=" text-[#121314] border-[#121314] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1200" data-aos-anchor="#contact-text">
                                 CV (LaTeX)
                             </button>
                         </a>

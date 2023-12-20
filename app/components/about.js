@@ -30,12 +30,22 @@ export default function About() {
                     <li>Wordpress, Wix, Squarespace</li>
                 </ul>
             </div>
-            <div className="w-90vw h-20vh md:w-[30vw] md:h-[80vh] flex justify-center items-center">
+            <div className="md:hidden w-80vw h-20vh md:w-[30vw] md:h-[80vh] flex justify-center items-center">
                 <Image 
                     src="/cc217327-1944-43a1-9406-d9df6c19f36f.jpg" 
                     alt="Profile Picture"
-                    width={250}
-                    height={500}
+                    width={300}
+                    height={300}
+                    className=" rounded-2xl"
+                />
+            </div>
+            <div className="hidden md:flex w-80vw h-20vh md:w-[30vw] md:h-[80vh] justify-center items-center">
+                <Image 
+                    src="/cc217327-1944-43a1-9406-d9df6c19f36f.jpg" 
+                    alt="Profile Picture"
+                    width={400}
+                    height={400}
+                    className=" rounded-2xl"
                 />
             </div>
         </main>

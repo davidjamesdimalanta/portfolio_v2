@@ -10,19 +10,20 @@ export default function Projects() {
                 <h1 className="w-[80vw] flex text-2xl pb-4 font-thin">
                     What I&apos;ve Made
                 </h1>
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    {projectdata.map(projectdata => (
-                        <ProjectList 
-                        imgUrl={projectdata.imgUrl}
-                        title={projectdata.title}
-                        desc={projectdata.desc}
-                        tags={projectdata.tags}
-                        width={projectdata.width}
-                        height={projectdata.height}
-                        gitLink={projectdata.gitLink}
-                        webLink={projectdata.webLink}
-                        key={projectdata.projectId}
-                        />
+                <div>
+                    {projectdata.map((projectdata, index) => (
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay={`${index * 200}`} key={projectdata.projectId}>
+                            <ProjectList 
+                            imgUrl={projectdata.imgUrl}
+                            title={projectdata.title}
+                            desc={projectdata.desc}
+                            tags={projectdata.tags}
+                            width={projectdata.width}
+                            height={projectdata.height}
+                            gitLink={projectdata.gitLink}
+                            webLink={projectdata.webLink}
+                            />
+                        </div>
                     ))}
                 </div>
             </div>

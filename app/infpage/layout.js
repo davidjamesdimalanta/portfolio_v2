@@ -1,16 +1,7 @@
 import 'app/globals.css'
-
-export default function CaseStudyLayout({children}) {
+export default function CoursesLayout({children}) {
     return (
-      <section>
-        {
-            <nav className='w-screen h-[40vh] flex justify-center items-center'>
-                <ul className='flex gap-4'>
-                    <li>The Perfect Café</li>
-                    <li>Chess Timer</li>
-                </ul>
-            </nav>
-        }
+      <section className='py-16 md:py-20 h-max'>
         {children}
       </section>
     )

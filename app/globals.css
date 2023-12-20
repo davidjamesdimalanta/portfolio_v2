@@ -6,22 +6,22 @@ body {
   overflow-x: hidden !important;
   overflow-y: auto;
   font-family: 'Clash Grotesk', sans-serif;
-  background-color: #143306;
-  color: #FFFDD0;
+  background-color: #F7F4EC;
+  color: #3A3B3C;
   scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
   display: block;
-  width: 2px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #143306;
+  background: #F7F4EC;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FFFDD0;
+  background: #3A3B3C;
   border-radius: 2px;
 }
 
@@ -65,4 +65,23 @@ html {
 
 a {
   display: inline;
+}
+
+.magnify {
+  position: relative;
+}
+
+.magnify img {
+  width: 100%;
+  height: auto;
+}
+
+.magnify-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /* Set the size of the magnifier glass */
+  width: 100px;
+  height: 100px;
 }
