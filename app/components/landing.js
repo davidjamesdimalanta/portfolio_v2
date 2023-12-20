@@ -13,7 +13,7 @@ export default function Landing() {
                     David James Dimalanta
                 </span>
                 <h3 className="text-2xl md:text-3xl pb-6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1500" data-aos-anchor="#landing">
-                    I am a Toronto-based web developer. Currently, I am a front-end developer at <a id="underline" href="https://globalspark.world/">Global Spark</a>.
+                    I am a Toronto-based web developer with a passion for crafting seamless online experiences. Currently, I am a front-end developer at <a id="underline" href="https://globalspark.world/">Global Spark</a>.
                 </h3>
                 <div className="flex flex-col w-max">
                     <a id="underline" href="/#about" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="2000" data-aos-anchor="#landing"> Learn More About Me</a>
