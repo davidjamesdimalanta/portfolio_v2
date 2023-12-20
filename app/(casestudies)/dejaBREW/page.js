@@ -94,7 +94,7 @@ export default function DejaBrew() {
             </div>
             <div className='w-full min-h-[120svh] md:min-h-[130svh] h-max flex flex-col justify-center items-center p-4 gap-4'>
               <span className='text-xl'>
-                Based on <span className='font-medium'>10 interviews</span>, we created  <span className='font-medium'>an affinity diagram</span> in order to understand our users' needs.
+                Based on <span className='font-medium'>10 interviews</span>, we created  <span className='font-medium'>an affinity diagram</span> in order to understand our user&apos;s needs.
               </span>
               <Image 
                 src={'/dejaBrew artefacts/dejabrew affinity diagram.jpg'}
@@ -120,7 +120,7 @@ export default function DejaBrew() {
                 Scenario Mapping
               </h2>
               <span className='w-full text-xl'>
-                Starting with an <span className='font-medium'>as-is scenario</span> based on the empathy map, we charted Lily's current process for locating her ideal café, capturing her associated actions, thoughts, and emotions.</span>
+                Starting with an <span className='font-medium'>as-is scenario</span> based on the empathy map, we charted Lily&apos;s current process for locating her ideal café, capturing her associated actions, thoughts, and emotions.</span>
               <h3 className='text-2xl md:text-3xl w-full'>
                 As-Is Scenario
               </h3>
@@ -148,17 +148,17 @@ export default function DejaBrew() {
             </div>
             <div className='w-[80vw] max-h flex flex-col items-center pt-6 lg:pt-12 gap-4'>
               <h2 className='text-3xl md:text-4xl w-full'>
-                Determining Lily's Needs
+                Determining Lily&apos;s Needs
               </h2>
               <span className='w-full text-xl'>
-                Based on our user research, persona, and empathy maps, and the as-is scenario, we described <span className='font-medium'>Lily's needs</span> as the following:
+                Based on our user research, persona, and empathy maps, and the as-is scenario, we described <span className='font-medium'>Lily&apos;s needs</span> as the following:
               </span>
               <ul className='w-[90%] text-xl md:text-3xl [&>*]:mb-2 [&>*]:p-4 [&>*]:rounded-md [&>*]:shadow-sm [&>*]:border-[1px] [&>*]:bg-white [&>*]:border-gray-200]'>
                 <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">Lily needs <span className='font-medium'>a way to find good quality food and coffee</span> so that she can enjoy her visits to cafés.</li>
                 <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="300">Lily requires access to <span className='font-medium'>updated information</span> about cafe <span className='font-medium'>hours</span>, <span className='font-medium'>menu changes</span>, and <span className='font-medium'>seating availability</span> to optimize her cafe visits.</li>
                 <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="400">Lily needs a way to find <span className='font-medium'>reliable reviews</span> so that she can make <span className='font-medium'>informed decisions</span> before visiting cafés.</li>
                 <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="500">Lily needs <span className='font-medium'>assurance that cafés provide necessary amenities</span> like <span className='font-medium'>Wi-Fi</span> and <span className='font-medium'>power outlets</span> for effective study sessions.</li>
-                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="600">Lily needs a <span className='font-medium'>quick and easy way to understand</span> a cafe's <span className='font-medium'>ambiance</span>, <span className='font-medium'>menu variety</span>, and <span className='font-medium'>customer service quality</span> to anticipate the kind of experience she'll have.</li>
+                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="600">Lily needs a <span className='font-medium'>quick and easy way to understand</span> a cafe&apos;s <span className='font-medium'>ambiance</span>, <span className='font-medium'>menu variety</span>, and <span className='font-medium'>customer service quality</span> to anticipate the kind of experience she&apos;ll have.</li>
               </ul>
             </div>
           <section id='ideation'>
@@ -205,7 +205,7 @@ export default function DejaBrew() {
                 Figma Wireframes
               </h2>
               <span className='w-full text-lg md:text-xl md:text-start'>
-                Based on the ideation phase, we created a <span className='font-medium'>prototype wireframes</span> that consists of <span className='font-medium'>3 task flows</span>: Curating recommendations according to Lily's preferences; 
+                Based on the ideation phase, we created a <span className='font-medium'>prototype wireframes</span> that consists of <span className='font-medium'>3 task flows</span>: Curating recommendations according to Lily&apos;s preferences; 
                 Finding all necessary information about a café in one place; And reviewing/discussing local cafés.
               </span>
               <Prototypes />
@@ -223,7 +223,7 @@ export default function DejaBrew() {
                 Usability Evaluations
               </h2>
               <span className='w-full text-lg md:text-xl md:text-start'>
-                We conducted formative observational <span className='font-medium'>usability evaluations</span> on the medium fidelity prototype with <span className='font-medium'>university students aged 21-30</span>, using both <span className='font-medium'>in-person</span> and <span className='font-medium'>video chat</span> methods. Here's what we found:
+                We conducted formative observational <span className='font-medium'>usability evaluations</span> on the medium fidelity prototype with <span className='font-medium'>university students aged 21-30</span>, using both <span className='font-medium'>in-person</span> and <span className='font-medium'>video chat</span> methods. Here&apos;s what we found:
               </span>
               <Evaluations />
             </div>
@@ -245,8 +245,8 @@ export default function DejaBrew() {
                 Conclusion
             </h2>
             <span className='w-full text-lg md:text-xl md:text-start'>
-              Through the DejaBREW project, I've learned the importance of <span className='font-medium'>user-centered design</span> and effective teamwork. <br /><br />
-              I've gained skills in <span className='font-medium'>user research</span>, and turning those findings into actionable design improvements. 
+              Through the DejaBREW project, I&apos;ve learned the importance of <span className='font-medium'>user-centered design</span> and effective teamwork. <br /><br />
+              I&apos;ve gained skills in <span className='font-medium'>user research</span>, and turning those findings into actionable design improvements. 
               This experience gave me insights into <span className='font-medium'>design-thinking</span>, providing me each step of the design-process, 
               and skills to handle complex projects where <span className='font-medium'>understanding and addressing user needs are crucial for success</span>. <br /><br />
               I am now more adept at <span className='font-medium'>adapting to changing requirements</span> and collaborating effectively within a team to <span className='font-medium'>deliver solutions that truly resonate with the target audience</span>.<br /><br />

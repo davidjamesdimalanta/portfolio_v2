@@ -10,7 +10,7 @@ export default function Prototypes() {
     <div className="w-full h-max flex flex-col md:flex-row gap-4">
         <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 items-center text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
             <h3 className="w-full text-xl font-medium">
-                Curating recommendations according to one's preferences.
+                Curating recommendations according to one&apos;s preferences.
             </h3>
                 <Image 
                     src={FeaturePath1}

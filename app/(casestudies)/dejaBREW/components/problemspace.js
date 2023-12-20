@@ -13,7 +13,7 @@ export default function ProblemSpace() {
                     <span className="w-full inline">
                         Finding the <span className="font-medium">perfect café</span> often involves a time-consuming process of navigating through various online reviews and platforms like <span className="font-medium">Google Maps</span> and <span className="font-medium">Yelp</span>. 
                         <br /><br />
-                        Users find that these platforms frequently have <span className="font-medium">outdated</span> or <span className="font-medium">incomplete</span> details about menus, locations, and hours, with limited personalized recommendations. This often results in <span className="font-medium">inaccurate assessments</span> of a café's ambiance, leading to unsatisfactory visits. 
+                        Users find that these platforms frequently have <span className="font-medium">outdated</span> or <span className="font-medium">incomplete</span> details about menus, locations, and hours, with limited personalized recommendations. This often results in <span className="font-medium">inaccurate assessments</span> of a café&apos;s ambiance, leading to unsatisfactory visits. 
                         <br /><br />
                         Improving these aspects would not only enhance customer experiences but also benefit cafés in attracting new customers.
                     </span>
@@ -35,7 +35,7 @@ export default function ProblemSpace() {
                             <span className="w-full lg:w-4/6 inline z-10">
                                 Finding the <span className="font-medium">perfect café</span> often involves navigating through various online review platforms like <span className="font-medium">Google Maps</span> and <span className="font-medium">Yelp</span>. 
                                 <br /><br />
-                                Users find that these platforms frequently have <span className="font-medium">outdated</span> or <span className="font-medium">incomplete details</span> about menus, locations, and hours, with <span className="font-medium">limited personalized recommendations</span>. This often results in <span className="font-medium">inaccurate assessments</span> of a café's ambiance, leading to unsatisfactory visits. 
+                                Users find that these platforms frequently have <span className="font-medium">outdated</span> or <span className="font-medium">incomplete details</span> about menus, locations, and hours, with <span className="font-medium">limited personalized recommendations</span>. This often results in <span className="font-medium">inaccurate assessments</span> of a café&apos;s ambiance, leading to unsatisfactory visits. 
                                 <br /><br />
                                 Improving these aspects would not only enhance customer experiences but also benefit cafés in attracting new customers.
                             </span>
@@ -52,7 +52,7 @@ export default function ProblemSpace() {
                 </div>
                 <div className="col-span-2 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 overflow-hidden overflow-y-scroll" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">
                     <h2 className="text-2xl">
-                        Youth's Choice
+                        Youth&apos;s Choice
                     </h2>
                     <span className="text-xl">
                     <span className="font-medium">Specialty blended espresso beverages</span> are the most popular among Canadians under 35.

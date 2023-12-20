@@ -19,10 +19,10 @@ export default function Persona() {
                 data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out"
             />
             <h2 className="pt-4 w-full text-4xl">
-                Lily's Empathy Map
+                Lily&apos;s Empathy Map
             </h2>
             <span className="text-xl ">
-                To better understand Lily's needs, we delve into our <span className="font-medium">empathy map</span>, which provides deeper insights into what she <span className="font-medium">says, thinks, feels, and does</span> during her cafe experiences.
+                To better understand Lily&apos;s needs, we delve into our <span className="font-medium">empathy map</span>, which provides deeper insights into what she <span className="font-medium">says, thinks, feels, and does</span> during her cafe experiences.
             </span>
             <Image 
                 src={'/dejaBrew artefacts/empathyMap.jpg'}

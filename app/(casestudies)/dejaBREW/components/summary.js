@@ -21,8 +21,8 @@ export default function Summary() {
                     Making Café Finding Easy
                 </h2>
                 <div className="pl-0 md:pl-4 flex flex-col justify-center gap-4 text-lg text-[#EED9C4]">
-                    <span>DejaBREW is a mobile application specifically tailored for students and young professionals who are passionate about exploring unique cafés. It's the perfect tool for those who love to discover new coffee spots.</span>
-                    <span>It offers personalized café recommendations based on individual preferences and previous visits. Whether you're seeking a quiet spot for studying, a vibrant space for social gatherings, or a café with the best espresso in town, DejaBREW has you covered.</span>
+                    <span>DejaBREW is a mobile application specifically tailored for students and young professionals who are passionate about exploring unique cafés. It&apos;s the perfect tool for those who love to discover new coffee spots.</span>
+                    <span>It offers personalized café recommendations based on individual preferences and previous visits. Whether you&apos;sre seeking a quiet spot for studying, a vibrant space for social gatherings, or a café with the best espresso in town, DejaBREW has you covered.</span>
                     <span>View the mid-fidelity prototype here:</span>
                 </div>
                 <a href="https://www.figma.com/proto/P3poQA9v7CbsnPmd0iaxGv/D%C3%A9jaBrew-MidFi?type=design&node-id=1-2&t=XjFEv3OY9KjYTj4O-1&scaling=scale-down&page-id=0%3A1&mode=design">

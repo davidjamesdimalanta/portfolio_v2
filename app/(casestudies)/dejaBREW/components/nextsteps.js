@@ -34,7 +34,7 @@ export default function NextSteps() {
                             alt={'freepik bro asset'}
                         />
                         <span className="w-auto inline text-lg">
-                           Implementing <span className="font-medium">live occupancy data</span> would help users scope out the busiest times during a cafe's operation and to inform them on <span className="font-medium">real-time seating availability</span>.
+                           Implementing <span className="font-medium">live occupancy data</span> would help users scope out the busiest times during a cafe&apos;s operation and to inform them on <span className="font-medium">real-time seating availability</span>.
                         </span>
                     </div>
                 </div>

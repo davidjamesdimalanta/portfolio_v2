@@ -1,4 +1,4 @@
-# David James' Web Developer Portfolio
+# My Web Developer Portfolio
 
 Welcome to my personal web developer portfolio built with `Next.js`! This portfolio showcases my skills, projects, and experiences in web development.
 

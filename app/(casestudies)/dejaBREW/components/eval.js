@@ -14,7 +14,7 @@ export default function Evaluations() {
                             Users liked the user interface and features.
                         </li>
                         <li className="w-auto inline text-lg">
-                            Users appreciated icons and the app's focus on café enthusiasts.
+                            Users appreciated icons and the app&apos;s focus on café enthusiasts.
                         </li>
                         <li className="w-auto inline text-lg">
                             Users praised Instagram Reels integration and similar café suggestions.
@@ -58,13 +58,13 @@ export default function Evaluations() {
                     </h1>
                     <ul className="w-auto h-full flex flex-col  gap-4 list-disc">
                         <li className="w-auto inline text-lg">
-                            A 'Would Go Again' button.
+                            A &apos;Would Go Again&apos; button.
                         </li>
                         <li className="w-auto inline text-lg">
                             <span className="font-medium">Transit time indicators.</span>
                         </li>
                         <li className="w-auto inline text-lg">
-                            <span className="font-medium">Integration of friends' posts or activity.</span>
+                            <span className="font-medium">Integration of friends&apos; posts or activity.</span>
                         </li>
                         <li className="w-auto inline text-lg">
                             Interactive elements like hashtags and filters.

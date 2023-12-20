@@ -15,6 +15,7 @@ export default function Featured() {
                         data-aos-duration="1000" 
                         data-aos-easing="ease-in-out"
                         data-aos-delay={`${index * 200}`}
+                        key={featuredata.projectId}
                         className="pb-2">
                             <FeatureList 
                             imgUrl={featuredata.imgUrl}
@@ -25,7 +26,6 @@ export default function Featured() {
                             height={featuredata.height}
                             gitLink={featuredata.gitLink}
                             webLink={featuredata.webLink}
-                            key={featuredata.projectId}
                             />
                         </div>
                         
