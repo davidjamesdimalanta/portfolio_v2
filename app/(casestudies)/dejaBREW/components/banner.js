@@ -10,6 +10,7 @@ export default function Banner() {
                     width={251}
                     height={800}
                     alt={"desc"}
+                    priority
                 />
                 
             </div>
@@ -19,6 +20,7 @@ export default function Banner() {
                     width={250}
                     height={800}
                     alt={"desc"}
+                    priority
                 />
             </div>
             <div className="w-max h-[120svh] flex flex-col justify-start pt-24" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out">
@@ -27,6 +29,7 @@ export default function Banner() {
                     width={251}
                     height={800}
                     alt={"desc"}
+                    priority
                 />
             </div>
         </div>
