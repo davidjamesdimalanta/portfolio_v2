@@ -1,11 +1,18 @@
-
-import React from "react";
+'use client'
+import { useEffect } from "react";
 import Image from "next/image";
 import FeaturePath1 from 'public/mockups/FeaturePath1.gif'
 import FeaturePath2 from 'public/mockups/FeaturePath2.5.gif'
 import FeaturePath3 from 'public/mockups/FeaturePath3.gif'
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 export default function Prototypes() {
+    useEffect(() => {
+        AOS.init({
+          once: true,
+        });
+      }, []);
     return(
     <div className="w-full h-max flex flex-col md:flex-row gap-4">
         <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 items-center text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">

@@ -1,6 +1,4 @@
-'use client'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import Arrow from './components/arrow';
 import Banner from './components/banner';
 import MobileBanner from './components/mobilebanner';
 import Summary from './components/summary';
@@ -12,19 +10,15 @@ import Ideation from './components/ideation';
 import Prototypes from './components/prototypes';
 import Evaluations from './components/eval';
 import NextSteps from './components/nextsteps';
+import PrimarySummary from './components/artefacts/primaryresearch.js';
+import Affinity from './components/artefacts/affinity';
+import ScenarioMapping from './components/artefacts/scenariomapping.js';
+import LilysNeeds from './components/artefacts/needs';
 
 import Image from 'next/image';
 
-import { useEffect } from 'react';
-
 
 export default function DejaBrew() {
-    useEffect(() => {
-        AOS.init({
-          once: true,
-        });
-      }, []);
-
     return(
         <main className='w-screen h-max flex flex-col pt-10 md:pt-0 items-center'>
           <div className='w-screen lg:w-screen h-[80svh] lg:h-[85vh] flex flex-col lg:flex-row items-center'>
@@ -32,20 +26,7 @@ export default function DejaBrew() {
                   <h1 className='font-normal text-5xl md:text-6xl rounded-3xl px-6 py-2'>
                     DejaBrew
                   </h1>
-                  <div data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="3000">
-                    <svg xmlns="http://www.w3.org/2000/svg" 
-                        fill="none" 
-                        viewBox="0 0 24 24" 
-                        strokeWidth="1.5" 
-                        stroke="currentColor" 
-                        className="w-6 h-6 animate-bounce">
-                        <path 
-                            strokeLinecap="round" 
-                            strokeLinejoin="round" 
-                            d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3">
-                        </path>
-                    </svg>
-                  </div>
+                  <Arrow />
               </div>
               <div className='hidden md:flex lg:w-3/5 lg:h-[85svh] overflow-hidden'>
                 <Banner />
@@ -69,41 +50,13 @@ export default function DejaBrew() {
             </h1>
             <h2 className='text-3xl md:text-4xl w-auto p-4'>
                 Primary Research
-              </h2>
-            <div className='min-h-[20svh] md:min-h-[30svh] flex flex-col md:flex-row justify-center items-center py-4 lg:py-0 gap-2'>
-              <div className='w-auto flex flex-col items-center text-lg font-medium rounded-md shadow-sm border-[1px] bg-white border-gray-200'
-                   data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
-                <Image 
-                  src={'/amico assets/Interview-rafiki.png'}
-                  width={350}
-                  height={350}
-                  alt={'amico assets'}
-                />
-                <span>We conducted 10 Interviews</span>
-              </div>
-              <div className='w-auto flex flex-col items-center text-lg font-medium rounded-md shadow-sm border-[1px] bg-white border-gray-200 '
-                   data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">
-                <Image 
-                  src={'/amico assets/Customer Survey-rafiki.png'}
-                  width={350}
-                  height={350}
-                  alt={'amico assets'}
-                />
-                <span>and received 66 Survey Results</span>
-              </div>
-            </div>
+            </h2>
+            <PrimarySummary />
             <div className='w-full min-h-[120svh] md:min-h-[130svh] h-max flex flex-col justify-center items-center p-4 gap-4'>
               <span className='text-xl'>
                 Based on <span className='font-medium'>10 interviews</span>, we created  <span className='font-medium'>an affinity diagram</span> in order to understand our user&apos;s needs.
               </span>
-              <Image 
-                src={'/dejaBrew artefacts/dejabrew affinity diagram.jpg'}
-                width={1000}
-                height={400}
-                alt={'Affinity Diagram'}
-                className="hover:scale-105 transition ease-in-out"
-                data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200"
-                />
+              <Affinity />
               <div className='w-full h-max min-h-[60svh] flex flex-col justify-center items-center p-4 gap-4'>
                 <h2 className='text-3xl md:text-4xl w-full'>
                   Key Findings
@@ -115,37 +68,7 @@ export default function DejaBrew() {
             <div className='w-[80vw] min-h-screen md:min-h-[120svh] flex flex-col items-center pt-6 lg:pt-12'>
               <Persona />
             </div>
-            <div className='w-[80vw] min-h-screen flex flex-col items-center pt-6 lg:pt-12 gap-4'>
-              <h2 className='text-3xl md:text-4xl w-full'>
-                Scenario Mapping
-              </h2>
-              <span className='w-full text-xl'>
-                Starting with an <span className='font-medium'>as-is scenario</span> based on the empathy map, we charted Lily&apos;s current process for locating her ideal café, capturing her associated actions, thoughts, and emotions.</span>
-              <h3 className='text-2xl md:text-3xl w-full'>
-                As-Is Scenario
-              </h3>
-              <Image 
-                src={'/dejaBrew artefacts/asIs.jpg'}
-                width={1000}
-                height={400}
-                alt={'as-is scenario'}
-                className="hover:scale-105 transition ease-in-out"
-                data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200"
-              />
-              <span className='w-full text-xl pt-4'>
-                Then, using a <span className='font-medium'>to-be scenario</span>, we envisioned an improved scenario for Lily, outlining how our designed solution could transform her café-finding experience.</span>
-              <h3 className='text-2xl md:text-3xl w-full'>
-                To-Be Scenario
-              </h3>
-              <Image 
-                src={'/dejaBrew artefacts/toBe.jpg'}
-                width={1000}
-                height={400}
-                alt={'to-bw scenario'}
-                className="hover:scale-105 transition ease-in-out"
-                data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200"
-              />
-            </div>
+            <ScenarioMapping />
             <div className='w-[80vw] max-h flex flex-col items-center pt-6 lg:pt-12 gap-4'>
               <h2 className='text-3xl md:text-4xl w-full'>
                 Determining Lily&apos;s Needs
@@ -153,13 +76,7 @@ export default function DejaBrew() {
               <span className='w-full text-xl'>
                 Based on our user research, persona, and empathy maps, and the as-is scenario, we described <span className='font-medium'>Lily&apos;s needs</span> as the following:
               </span>
-              <ul className='w-[90%] text-xl md:text-3xl [&>*]:mb-2 [&>*]:p-4 [&>*]:rounded-md [&>*]:shadow-sm [&>*]:border-[1px] [&>*]:bg-white [&>*]:border-gray-200]'>
-                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">Lily needs <span className='font-medium'>a way to find good quality food and coffee</span> so that she can enjoy her visits to cafés.</li>
-                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="300">Lily requires access to <span className='font-medium'>updated information</span> about cafe <span className='font-medium'>hours</span>, <span className='font-medium'>menu changes</span>, and <span className='font-medium'>seating availability</span> to optimize her cafe visits.</li>
-                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="400">Lily needs a way to find <span className='font-medium'>reliable reviews</span> so that she can make <span className='font-medium'>informed decisions</span> before visiting cafés.</li>
-                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="500">Lily needs <span className='font-medium'>assurance that cafés provide necessary amenities</span> like <span className='font-medium'>Wi-Fi</span> and <span className='font-medium'>power outlets</span> for effective study sessions.</li>
-                <li className='hover:scale-105 transition ease-in-out' data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="600">Lily needs a <span className='font-medium'>quick and easy way to understand</span> a cafe&apos;s <span className='font-medium'>ambiance</span>, <span className='font-medium'>menu variety</span>, and <span className='font-medium'>customer service quality</span> to anticipate the kind of experience she&apos;ll have.</li>
-              </ul>
+              <LilysNeeds />
             </div>
           <section id='ideation'>
             <div className='w-[80vw] min-h-screen h-max flex flex-col justify-start items-start md:items-center pt-6 lg:pt-12] gap-4'>

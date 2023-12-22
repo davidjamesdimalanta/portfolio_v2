@@ -1,12 +1,11 @@
-'use client'
 import React from "react";
 import Image from "next/image";
 
 export default function KeyFindings() {
     return (
         <main id='key-findings'>
-            <div className="w-full h-max flex flex-col md:grid md:grid-cols-4 md:grid-rows-4 gap-2">
-                <div className="w-full h-max md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div className="w-full h-full flex flex-col md:grid md:grid-cols-4 md:grid-rows-4 gap-2">
+                <div className="w-full h-full md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
                     <h1 className="text-2xl md:text-3xl">
                         Ambience is Key
                     </h1>
@@ -22,7 +21,7 @@ export default function KeyFindings() {
                         </span>
                     </div>
                 </div>
-                <div className="w-full h-max md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="w-full h-full md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
                     <h1 className="text-2xl md:text-3xl">
                         Mixed Views on Reviews
                     </h1>
@@ -38,11 +37,11 @@ export default function KeyFindings() {
                         </span>
                     </div>
                 </div>
-                <div className="w-full h-max md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="w-full h-full md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
                     <h1 className="text-2xl md:text-3xl">
                         Holistic Consumer Preferences
                     </h1>
-                    <div className="w-auto h-full flex flex-col items-center gap-4 ">
+                    <div className="w-auto h-full flex flex-col items-center gap-4">
                         <Image 
                             src={'/bro assets/coffee bean-bro.png'}
                             width={200}
@@ -54,7 +53,7 @@ export default function KeyFindings() {
                         </span>
                     </div>
                 </div>
-                <div className="w-full h-max md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="w-full h-full md:col-span-2 md:row-span-2 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
                     <h1 className="text-2xl md:text-3xl">
                         Wi-Fi Expectations
                     </h1>

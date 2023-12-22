@@ -1,7 +1,14 @@
 'use client'
-import React from "react";
+import {useEffect} from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 export default function Evaluations() {
+    useEffect(() => {
+        AOS.init({
+          once: true,
+        });
+      }, []);
     return (
         <main id='evaluations'>
             <div className="w-full h-max flex flex-col md:grid md:grid-cols-3 md:grid-rows-1 gap-2">

@@ -64,10 +64,6 @@ npm run build
 `components/`: Reusable UI components.
 `public/`: Static files like images and icons.
 
-
-## Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 This project is open-sourced under the MIT License.
 

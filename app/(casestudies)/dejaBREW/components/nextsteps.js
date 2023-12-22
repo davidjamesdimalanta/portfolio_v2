@@ -1,8 +1,15 @@
 'use client'
-import React from "react";
+import {useEffect} from "react";
 import Image from "next/image";
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 export default function NextSteps() {
+    useEffect(() => {
+        AOS.init({
+          once: true,
+        });
+      }, []);
     return (
         <main id='key-findings'>
             <div className="w-full h-max flex flex-col md:grid md:grid-cols-4 md:grid-rows-4 gap-2">
