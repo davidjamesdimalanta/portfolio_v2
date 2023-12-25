@@ -79,7 +79,7 @@ const Navbar = () => {
                 <Link href="/#about" className='hover:text-[#B2AC88] scroll-smooth'>
                   About
                 </Link>
-                <Link href='/David James Dimalanta Resume.pdf' className='hover:text-[#B2AC88]' download>
+                <Link href='/davidresume.pdf' className='hover:text-[#B2AC88]' download>
                   <button>CV</button>
                 </Link>
             </div>
