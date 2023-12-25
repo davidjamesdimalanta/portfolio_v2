@@ -79,9 +79,11 @@ const Navbar = () => {
                 <Link href="/#about" className='hover:text-[#B2AC88] scroll-smooth'>
                   About
                 </Link>
-                <Link href='/davidresume.pdf' className='hover:text-[#B2AC88]' download>
+                <a href='/davidresume.pdf'>
                   <button>CV</button>
-                </Link>
+                </a>
+                  
+                
             </div>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
@@ -106,7 +108,7 @@ const Navbar = () => {
                 onClick={() => showSideBar(!sideBar)}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
-              <ul className='w-full h-auto flex flex-col items-end text-xl gap-4 pt-4'>
+              <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4'>
                 <li><Link href='/infpage' className='hover:text-[#B2AC88]'>BI Courses</Link></li>
                 <li><Link href='/dejaBREW' className='hover:text-[#B2AC88]'>DejaBREW Case Study</Link></li>
                 <li><a href='/David James Dimalanta Resume.pdf' className='hover:text-[#B2AC88]' download><button>CV</button></a></li>
