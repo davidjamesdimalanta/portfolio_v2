@@ -2,8 +2,8 @@ import 'app/globals.css'
 import Link from 'next/link'
 
 export const metadata = {
-  applicationName: 'DejaBrew Case Study',
-  description: 'Making Café Finding Easier',
+  title: 'DejaBrew Case Study',
+  description: 'A Design Case Study on Mobile Review Platforms and Café Finding.',
   referrer: 'origin-when-cross-origin',
   keywords: ['UI Research', 'Usability Testint', 'Prototyping'],
   authors: [{ name: 'David James' }, { name: 'David James Dimalanta', url: 'https://www.linkedin.com/in/david-james-dimalanta/' }],
