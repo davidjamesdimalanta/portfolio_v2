@@ -6,6 +6,18 @@ export const metadata = {
     default: 'David James Dimalanta',
     template: '%s | David James'
   },
+  icons: {
+    icon: [
+      {
+        url: '/favicon3.ico',
+        media: '(prefers-color-scheme: dark)',
+      },
+      {
+        url: '/favicon3.png',
+        media: '(prefers-color-scheme: light)',
+      },
+    ],
+  },
   description: 'Hi! My name is David, I am an emerging Full-Stack Developer with a passion for crafting seamless online experiences.',
   referrer: 'origin-when-cross-origin',
   keywords: ['Web Developer', 'Design', 'full-stack'],
@@ -38,8 +50,8 @@ export default function RootLayout({ children }) {
       <head>
       <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,300&f[]=clash-grotesk@700,500,400,300&display=swap" rel="stylesheet"/>
       <link rel="icon" href="/favicon3.ico" sizes="any" type="image/x-icon" />
-      <link rel="icon" href="/favicon32x32.png" sizes="32x32" type="image/png" />
-      <link rel="apple-touch-icon" href="/favicon3.png" sizes="256x256 " />
+      <link rel="icon" href="/favicon3.png" sizes="any" type="image/png" />
+      <link rel="apple-touch-icon" href="/favicon3.png" sizes="any" />
       </head>
       <body>
         <Navbar />
