@@ -66,12 +66,12 @@ const Navbar = () => {
           </svg>
         </Link>
             <div className='hidden md:flex flex-grow justify-end items-center gap-4'>
-              <div onClick={() => showSideBar(!sideBar)}>
+              <div>
                 <Link href="/dejaBREW" className='hover:text-[#B2AC88] scroll-smooth'>
                   DejaBREW-Case Study
                 </Link>
               </div>
-              <div onClick={() => showSideBar(!sideBar)}>
+              <div>
                 <Link href="/infpage" className='hover:text-[#B2AC88] scroll-smooth'>
                   BI Courses
                 </Link>
@@ -79,11 +79,9 @@ const Navbar = () => {
                 <Link href="/#about" className='hover:text-[#B2AC88] scroll-smooth'>
                   About
                 </Link>
-                <a href='/davidresume.pdf'>
+                <a href='/2023CV.pdf'>
                   <button>CV</button>
-                </a>
-                  
-                
+                </a> 
             </div>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
@@ -111,8 +109,7 @@ const Navbar = () => {
               <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4'>
                 <li><Link href='/infpage' className='hover:text-[#B2AC88]'>BI Courses</Link></li>
                 <li><Link href='/dejaBREW' className='hover:text-[#B2AC88]'>DejaBREW Case Study</Link></li>
-                <li><a href='/David James Dimalanta Resume.pdf' className='hover:text-[#B2AC88]' download><button>CV</button></a></li>
-                <li><a href='/2023CV.pdf' className='hover:text-[#B2AC88]' download><button>CV (LaTeX)</button></a></li>
+                <li><a href='/2023CV.pdf' className='hover:text-[#B2AC88]' download><button>CV</button></a></li>
               </ul>
             </div>
           </div>
