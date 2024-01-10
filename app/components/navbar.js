@@ -71,17 +71,9 @@ const Navbar = () => {
                   DejaBREW-Case Study
                 </Link>
               </div>
-              <div>
-                <Link href="/infpage" className='hover:text-[#B2AC88] scroll-smooth'>
-                  BI Courses
-                </Link>
-              </div>
-                <Link href="/#about" className='hover:text-[#B2AC88] scroll-smooth'>
-                  About
-                </Link>
-                <a href='/2023CV.pdf'>
-                  <button>CV</button>
-                </a> 
+              <a href='/2023CV.pdf'>
+                <button>CV</button>
+              </a> 
             </div>
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
@@ -107,7 +99,6 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
               <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4'>
-                <li><Link href='/infpage' className='hover:text-[#B2AC88]'>BI Courses</Link></li>
                 <li><Link href='/dejaBREW' className='hover:text-[#B2AC88]'>DejaBREW Case Study</Link></li>
                 <li><a href='/2023CV.pdf' className='hover:text-[#B2AC88]' download><button>CV</button></a></li>
               </ul>
