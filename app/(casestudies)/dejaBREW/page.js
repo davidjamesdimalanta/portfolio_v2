@@ -161,7 +161,7 @@ export default function DejaBrew() {
               </div>
             <div className='w-[80svw] min-h-screen h-max flex flex-col justify-start items-start md:items-center gap-4'>
               <span className='text-3xl md:text-4xl w-full'>
-                Moving forward, we'd like to provide verticality on our horizontal prototypes. Going beyond our current task flows, we want to explore the full potential of the app with all its features and different components. Future iterations would include:
+                Moving forward, we&apos;d like to provide verticality on our horizontal prototypes. Going beyond our current task flows, we want to explore the full potential of the app with all its features and different components. Future iterations would include:
               </span>
               <NextSteps />
             </div>
