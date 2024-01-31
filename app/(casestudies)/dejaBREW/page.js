@@ -74,7 +74,6 @@ export default function DejaBrew() {
                 <KeyFindings />
               </div>
             </div>
-          </section>
             <div className='w-[75svw] min-h-screen md:min-h-[120svh] flex flex-col items-center'>
               <Persona />
             </div>
@@ -85,6 +84,8 @@ export default function DejaBrew() {
               </h2>
               <LilysNeeds />
             </div>
+          </section>
+            
 
           {/* Ideation */}
           <section id='ideation' className='w-screen flex flex-col justify-center items-center pt-6 lg:pt-12 gap-8'>
