@@ -41,23 +41,23 @@ export default function DejaBrew() {
 
           {/* Problem Space */}
           <section id="problem-space" className='w-screen min-h-[120svh] h-max flex flex-col justify-center items-center py-4 lg:py-0 gap-6'>
-            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] rounded-lg mb-4 flex flex-col md:flex-row justify-between'>
+            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] md:rounded-lg mb-4 flex flex-col md:flex-row justify-between'>
               <h1 className='text-[#855439] font-medium h-max py-4 text-5xl md:text-4xl lg:text-5xl'>
-                Problem Space
+              What&apos;s Going On With Cafés?
               </h1>
-              <span className='text-lg text-[#855439] md:flex md:justify-center md:items-center' >What&apos;s Going On With Cafés?</span>
+              <span className='text-lg text-[#855439] md:flex md:justify-center md:items-center' >Problem Space</span>
             </div>
             <ProblemSpace />
           </section>
 
           {/* Empathizing */}
           <section id='empathize' className='w-screen md:w-[80%] gap-8 flex flex-col items-center'>
-            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] rounded-lg mb-4 flex flex-col md:flex-row justify-between'>
+            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] md:rounded-lg mb-4 flex flex-col md:flex-row justify-between'>
               <h1 className='text-[#855439] font-medium h-max py-4 text-5xl md:text-4xl lg:text-5xl'>
-                  Empathizing With Our Users
+                Walking A Mile In Their Shoes
               </h1>
               <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >
-                  Walking A Mile In Their Shoes
+                Empathizing With Our Users
               </span>
             </div>
 
@@ -88,11 +88,11 @@ export default function DejaBrew() {
 
           {/* Ideation */}
           <section id='ideation' className='w-screen flex flex-col justify-center items-center pt-6 lg:pt-12 gap-8'>
-            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] rounded-lg flex flex-col md:flex-row justify-between'>
+            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] md:rounded-lg flex flex-col md:flex-row justify-between'>
               <h1 className='text-[#855439] font-medium h-max py-4 text-5xl md:text-4xl lg:text-5xl'>
-                Ideation
+                Pens, Papers, and Stickies!
               </h1>
-              <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >Ideating With Pen, Papers, and Stickies!</span>
+              <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >Ideation</span>
             </div>
             <div className='w-[80svw] min-h-screen h-max flex flex-col justify-start items-center'>
               <span className='text-3xl md:text-4xl w-auto'>
@@ -122,11 +122,11 @@ export default function DejaBrew() {
 
           {/* Prototyping */}
           <section id='prototyping' className='w-screen flex flex-col justify-center items-center pt-12 gap-8'>
-            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] rounded-lg flex flex-col md:flex-row justify-between'>
+            <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] md:rounded-lg flex flex-col md:flex-row justify-between'>
                 <h1 className='text-[#855439] font-medium h-max py-4 text-5xl md:text-4xl lg:text-5xl'>
-                  Prototyping
+                  What&apos;s This Suppose To Look Like Again?
                 </h1>
-                <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >What&apos;s This Suppose To Look Like Again?</span>
+                <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >Prototyping</span>
               </div>
             <div className='w-[80vw] min-h-screen h-max flex flex-col justify-start items-start md:items-center gap-8'>
               <h2 className='text-3xl md:text-4xl w-full'>
@@ -153,11 +153,11 @@ export default function DejaBrew() {
           {/* Next Steps */}
           </section>
           <section id='next-steps' className='w-screen flex flex-col justify-center items-center pt-12 gap-8'>
-          <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] rounded-lg flex flex-col md:flex-row justify-between'>
+          <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] md:rounded-lg flex flex-col md:flex-row justify-between'>
                   <h1 className='text-[#855439] font-medium h-max py-4 text-5xl md:text-4xl lg:text-5xl'>
-                    Next Steps
+                    What&apos;s Next for the DejaCREW?
                   </h1>
-                  <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >What&apos;s Next for the DejaCREW?</span>
+                  <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >Next Steps</span>
               </div>
             <div className='w-[80svw] min-h-screen h-max flex flex-col justify-start items-start md:items-center gap-4'>
               <span className='text-3xl md:text-4xl w-full'>
@@ -169,11 +169,11 @@ export default function DejaBrew() {
 
           {/* Conclusion */}
           <section id='conclusion' className='w-screen flex flex-col justify-center items-center pt-12 gap-8'>
-          <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] rounded-lg flex flex-col md:flex-row justify-between'>
+          <div className='w-full md:w-[80svw] h-max p-6 bg-[#eed9c4] md:rounded-lg flex flex-col md:flex-row justify-between'>
               <h1 className='text-[#855439] font-medium h-max py-4 text-5xl md:text-4xl lg:text-5xl'>
-                Conclusion
+                Class Dismissed!
               </h1>
-              <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >Class Dismissed!</span>
+              <span className='text-lg text-[#855439] flex md:justify-center md:items-center' >Conclusion</span>
             </div>
           <div className='w-[80vw] min-h-[50vh] h-max flex flex-col justify-start items-start md:items-center gap-4'>
             <span className='w-full text-lg md:text-xl md:text-start'>
