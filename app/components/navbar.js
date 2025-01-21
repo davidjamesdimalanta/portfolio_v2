@@ -71,7 +71,7 @@ const Navbar = () => {
                   DejaBREW-Case Study
                 </Link>
               </div>
-              <a href='/2023CV.pdf'>
+              <a href='/JAV2025CV.pdf' target="_blank" rel="noopener noreferrer">
                 <button>CV</button>
               </a> 
             </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
               </svg>
               <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4'>
                 <li><Link href='/dejaBREW' className='hover:text-[#B2AC88]'>DejaBREW Case Study</Link></li>
-                <li><a href='/2023CV.pdf' className='hover:text-[#B2AC88]' download><button>CV</button></a></li>
+                <li><a href='/JAV2025CV.pdf' target="_blank" rel="noopener noreferrer" className='hover:text-[#B2AC88]'><button>CV</button></a></li>
               </ul>
             </div>
           </div>

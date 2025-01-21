@@ -21,7 +21,7 @@ export default function Contact() {
                                 Say Hi!
                             </button>
                         </a>
-                        <a href="/2023CV.pdf" download>
+                        <a href="/JAV2025CV.pdf" target="_blank" rel="noopener noreferrer">
                             <button className=" text-[#121314] border-[#121314] rounded-md border-2 px-4 py-2 hover:scale-105 ease-in-out" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="1100" data-aos-anchor="#contact-text">
                                 CV
                             </button>
