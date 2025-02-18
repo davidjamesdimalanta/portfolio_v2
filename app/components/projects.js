@@ -8,11 +8,11 @@ export default function Projects() {
         <main id="projects" className="w-screen h-max flex justify-center items-center">
             <div className="w-[80vw] h-auto flex flex-col justify-center items-center gap-4 pt-12">
                 <h1 className="w-[80vw] flex text-2xl pb-4 font-medium">
-                    What I&apos;ve Made
+                    Projects
                 </h1>
-                <div>
+                <div className="grid grid-cols-1 lg:grid-cols-2  gap-6 p-4">
                     {projectdata.map((projectdata, index) => (
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay={`${index * 200}`} key={projectdata.projectId}>
+                        <div key={projectdata.projectId}>
                             <ProjectList 
                             imgUrl={projectdata.imgUrl}
                             title={projectdata.title}
@@ -20,8 +20,8 @@ export default function Projects() {
                             tags={projectdata.tags}
                             width={projectdata.width}
                             height={projectdata.height}
-                            gitLink={projectdata.gitLink}
                             webLink={projectdata.webLink}
+                            buttonText={projectdata.buttonText}
                             />
                         </div>
                     ))}

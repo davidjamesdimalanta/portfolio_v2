@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Contact() {
     return(
-        <main id="contact" className="w-screen h-[95vh] flex justify-center items-start">
+        <main id="contact" className="w-screen h-[80svh] flex justify-center items-start">
             <div className="w-[80vw] md:w-[65vw] h-full flex justify-center items-center">
                 <div className="w-full h-max flex flex-col justify-center items-start gap-2">
                     <h1 className="font-medium text-xl">

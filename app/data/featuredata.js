@@ -1,6 +1,6 @@
 const FeaturedData = [
     {
-        imgUrl: '/dejabrew.png',
+        imgUrl: '/project previews/dejabrew.png',
         title: 'DejaBREW Café Discovery App',
         desc: 'How can we provide up-to-date and personalized information to help users find the perfect café?',
         tags: ['UI Research', 'Usability Testing', 'Prototyping', 'Figma'],
@@ -11,7 +11,7 @@ const FeaturedData = [
         projectId: 1,
     },    
     {
-        imgUrl: '/ihublanding.png',
+        imgUrl: '/project previews/ihublanding.png',
         title: 'Innovation Hub Website Redesign',
         desc: 'A redesign of the Innovation Hub website to improve usability and design.',
         tags: ['Wordpress', 'Elementor', 'CSS', 'PHP', 'Beaver Builder'],

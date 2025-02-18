@@ -21,7 +21,15 @@ export default function FeatureList({ imgUrl, title, desc, tags, width, height, 
                 <div className="flex flex-col justify-start items-start p-8 h-auto gap-4">
                     <h2 className="text-3xl">{title}</h2>
                     <p>{desc}</p>
-                    <Link href={webLink} id="underline" className="flex w-max h-max font-medium">View Project</Link>
+                    <Link 
+                        href={webLink} 
+                        id="underline" 
+                        className="flex w-max h-max font-medium" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        View Project
+                    </Link>
                     <div className="pt-5 flex flex-wrap gap-2">
                             {tags.map((tag, index) => (
                                 <span key={tag} className="text-lg font-medium pr-2 py-1">
