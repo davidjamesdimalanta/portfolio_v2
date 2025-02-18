@@ -7,6 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        dark: '#46351D',
+        medium: '#646F4B',
+        'medium-light': '#839D9A',
+        accent: '#7BB2D9',
+        light: '#BFD2BF',
+        snow: '#FFF9FB',
+        black: '#252627',
+      },
+      fontFamily: {
+        dmSans: ['var(--font-dm-sans)'],
+      },
       keyframes: {
         slideUp: {
           'from': { transform: 'translateY(0)' },

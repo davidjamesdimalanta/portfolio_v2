@@ -7,7 +7,7 @@ export default function Projects() {
     return(
         <main id="projects" className="w-screen h-max flex justify-center items-center">
             <div className="w-[80vw] h-auto flex flex-col justify-center items-center gap-4 pt-12">
-                <h1 className="w-[80vw] flex text-2xl pb-4 font-thin">
+                <h1 className="w-[80vw] flex text-2xl pb-4 font-medium">
                     What I&apos;ve Made
                 </h1>
                 <div>

@@ -2,14 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   overflow-x: hidden !important;
   overflow-y: auto;
-  font-family: 'Clash Grotesk', sans-serif;
-  background-color: #F7F4EC;
-  color: #3A3B3C;
+
+  background-color: #FFF9FB;
+  color: #46351D;
   scroll-behavior: smooth;
 }
+
+#link {
+  font-weight: 600;
+  color: #46351D;
+}
+
 
 ::-webkit-scrollbar {
   display: block;
@@ -17,12 +24,12 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F7F4EC;
+  background: #FFF9FB;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3A3B3C;
-  border-radius: 2px;
+  background: #46351D;
+  border-radius: 4px;
 }
 
 #root {
@@ -31,32 +38,33 @@ body {
 }
 
 #underline {
-  font-family: 'Clash Display', sans-serif;
-  color: #B2AC88;
+  color: #FFF9FB;
   cursor: pointer;
-  position: relative; /* Needed for positioning the pseudo-element */
-  display: inline-block; /* To ensure the pseudo-element aligns correctly */
+  padding: 8px 16px;
+  border: 1px solid #46351D;
+  background: #46351D;
+  border-radius: 2px;
+  transition: transform 0.15s ease-in-out;
 }
 
-#underline::before {
-  content: '';
-  position: absolute;
-  bottom: 0; /* Position at the bottom of the anchor tag */
-  left: 0;
-  width: 0; /* Start with no width */
-  height: 2px; /* Height of the border */
-  background-color: #B2AC88; /* Border color */
-  transition: width 0.3s ease;
+#underline:hover {
+  transform: scale(1.1);
 }
 
-#underline:hover::before {
-  width: 100%; /* Full width on hover */
+
+/* New inverted button style */
+#underline-inverted {
+  color: #46351D;
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #46351D;
+  background: #FFF9FB;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
 }
 
-@media screen and (max-width: 600px) {
-  #underline {
-    display: inline;
-  }
+#underline-inverted:hover {
+  transform: scale(1.1);
 }
 
 html {

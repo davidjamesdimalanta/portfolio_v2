@@ -26,7 +26,7 @@ export default function ProjectList({ imgUrl, title, desc, tags, width, height, 
     return (
         <div className="w-[80vw] h-auto flex flex-col border-b-2 border-[#B2AC88] overflow-hidden" key={projectdata.projectId}>
             <div className="flex justify-between items-center py-2 hover:cursor-pointer" onClick={toggleShow}>
-                <h1 className="font-thin text-3xl">
+                <h1 className="font-medium text-3xl">
                     {title}
                 </h1>
                 {!show ? (
@@ -70,7 +70,7 @@ export default function ProjectList({ imgUrl, title, desc, tags, width, height, 
                         {desc}
                         <div className="py-10 flex flex-wrap gap-2 justify-center items-center md:justify-start">
                             {tags.map((tag, index) => (
-                                <span key={tag} className="text-lg font-thin px-2 py-1 rounded">
+                                <span key={tag} className="text-lg font-medium px-2 py-1 rounded">
                                     {tag}
                                 </span>
                             ))}

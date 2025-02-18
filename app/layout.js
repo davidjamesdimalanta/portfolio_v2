@@ -1,5 +1,11 @@
 import './globals.css'
 import Navbar from './components/navbar'
+import { DM_Sans } from 'next/font/google'
+
+const dmSans = DM_Sans({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: {
@@ -34,10 +40,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-      <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,300&f[]=clash-grotesk@700,500,400,300&display=swap" rel="stylesheet"/>
-      </head>
+    <html lang="en" className={`${dmSans.variable}`}>
       <body>
         <Navbar />
         {children}

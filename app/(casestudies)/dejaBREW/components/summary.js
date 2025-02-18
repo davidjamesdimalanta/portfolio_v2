@@ -32,7 +32,7 @@ export default function Summary() {
                 </a>
             </div>
             <div className="w-screen md:w-2/6 h-full md:h-1/3 p-6 md:p-4">
-                <div className="pl-0 md:pl-4 flex flex-col justify-center gap-4 text-lg text-[#EED9C4] font-thin">
+                <div className="pl-0 md:pl-4 flex flex-col justify-center gap-4 text-lg text-[#EED9C4] font-medium">
                     <span><b>Team</b> : Sehar Bajwa, Faiza Imam, Thomas Fox, Michael Fang, David James Dimalanta</span>
                     <span><b>Role</b> : Led primary research & usability evaluations, assisted in ideation, and created mid-fi prototype wireframes</span>
                     <span><b>Client</b> : Course Project on café finding, for patrons such as students or working professionals.</span>

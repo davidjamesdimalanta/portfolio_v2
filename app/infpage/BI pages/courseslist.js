@@ -25,7 +25,7 @@ export default function CoursesList({ title, desc, tags, projectId }) {
     return (
         <div className="w-[85vw] h-auto flex flex-col border-b-2 border-[#B2AC88] overflow-hidden" key={CoursesData.projectId}>
             <div className="flex justify-between items-center py-2 hover:cursor-pointer" onClick={toggleShow}>
-                <h1 className="font-thin text-3xl hover:text-[#B2AC88]">
+                <h1 className="font-medium text-3xl hover:text-[#B2AC88]">
                     {title}
                 </h1>
                 {!show ? (

@@ -70,7 +70,7 @@ export default function ProblemSpace() {
                         <h2 className="text-xl md:text-2xl">
                             Hub Spots
                         </h2>
-                        <span className="font-thin">
+                        <span className="font-medium">
                             High importance of <span className="font-medium">Wi-Fi</span> availability and <span className="font-medium">seating comfort</span>, with patrons often verifying these before visiting.
                         </span>
                     </div>
@@ -85,7 +85,7 @@ export default function ProblemSpace() {
                     <h2 className="text-xl md:text-2xl">
                             Third Places
                         </h2>
-                        <span className="font-thin">
+                        <span className="font-medium">
                             Cafés offer a conducive environment for creative thinking and productivity, thanks to <span className="font-medium">ambient noise</span> and <span className="font-medium">optimal lighting</span>.
                         </span>
                     </div>
