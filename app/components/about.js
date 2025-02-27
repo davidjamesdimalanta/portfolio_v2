@@ -63,7 +63,7 @@ export default function About() {
                                 ensuring that what I build is both functional and intuitive.
                             </p>
                             <p className="mb-4">
-                                I began my coding journey at the start of 2023 as a New Years resolution to learn a new skill. 
+                                I began my coding journey at the start of 2023 as a New Year&apos;s resolution to learn a new skill. 
                                 Today, I am fortunate to have worked with a{" "}
                                 <a 
                                     className="text-accent dark:text-accent-dark hover:underline" 
