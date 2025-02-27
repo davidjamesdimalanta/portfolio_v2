@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import projectdata from '../data/projectdata';
 
 export default function ProjectList({ imgUrl, title, desc, tags, width, height, webLink, buttonText }) {
     return (

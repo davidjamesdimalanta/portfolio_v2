@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   overflow-x: hidden !important;
   overflow-y: auto;
-
   background-color: #FFF9FB;
   color: #46351D;
   scroll-behavior: smooth;
+}
+
+/* Dark mode styles */
+.dark body {
+  background-color: #46351D;
+  color: #FFF9FB;
 }
 
 #link {
@@ -17,6 +21,9 @@ body {
   color: #46351D;
 }
 
+.dark #link {
+  color: #FFF9FB;
+}
 
 ::-webkit-scrollbar {
   display: block;
@@ -27,8 +34,17 @@ body {
   background: #FFF9FB;
 }
 
+.dark ::-webkit-scrollbar-track {
+  background: #46351D;
+}
+
 ::-webkit-scrollbar-thumb {
   background: #46351D;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #FFF9FB;
   border-radius: 4px;
 }
 
@@ -47,10 +63,15 @@ body {
   transition: transform 0.15s ease-in-out;
 }
 
+.dark #underline {
+  color: #46351D;
+  border: 1px solid #FFF9FB;
+  background: #FFF9FB;
+}
+
 #underline:hover {
   transform: scale(1.1);
 }
-
 
 /* New inverted button style */
 #underline-inverted {
@@ -61,6 +82,12 @@ body {
   background: #FFF9FB;
   border-radius: 2px;
   transition: transform 0.3s ease;
+}
+
+.dark #underline-inverted {
+  color: #FFF9FB;
+  border: 1px solid #FFF9FB;
+  background: #46351D;
 }
 
 #underline-inverted:hover {
@@ -92,4 +119,29 @@ a {
   /* Set the size of the magnifier glass */
   width: 100px;
   height: 100px;
+}
+
+/* Add dark mode border styles */
+.dark .border-dark {
+  border-color: #FFF9FB;
+}
+
+/* Add styles for components with white backgrounds in dark mode */
+.dark [class*="bg-white"] {
+  background-color: #46351D;
+  border-color: #FFF9FB;
+}
+
+/* Fix text color in dark mode for components with white backgrounds */
+.dark [class*="bg-white"] * {
+  color: #FFF9FB;
+}
+
+/* Fix shadow in dark mode */
+.dark [class*="shadow-sm"] {
+  box-shadow: 0 1px 2px 0 rgba(255, 249, 251, 0.05);
+}
+
+.dark .text-accent {
+  color: #CCCCFF; /* dark mode accent color */
 }

@@ -14,7 +14,7 @@ export default function Landing() {
                 </span>
                 <h3 className="text-2xl md:text-3xl pb-6">
                     With a background in <span className="text-medium-light">front-end development </span>
-                    and <span className="text-accent">UX Design</span>, I do my best work at the handoff.
+                    and <span className="text-accent">UX/UI</span>, I make sure user-centered design informs the build.
                 </h3>
                 <div className="flex flex-col w-max">
                     <a id="underline-inverted" href="/#about">Learn More About Me</a>
