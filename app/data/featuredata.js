@@ -34,7 +34,7 @@ const FeaturedData = [
     {
         imgUrl: '/project previews/EHS.png',
         title: 'Empire Health Systems Website',
-        desc: 'The Empire Health Systems website, is a React application featuring TailwindCSS, react-router-dom for multipage support, and framer-motion for JavaScript animations. It integrates Google OAuth 2.0, Google Apps Scripts, MongoDB, and Digital Ocean to handle intake form verification, Google Sheets interactions, database management, and server-side operations. I also assisted in domain security management for EHS, ensuring full compliance with HIPAA regulations.',
+        desc: 'How can we streamline manual processes and improve patient intake?',
         tags: ['React','TailwindCSS', 'MongoDB','Framer-motion', 'Google OAuth','Google Apps Scripts', 'AWS SDK 3', 'HTTPS'],
         width: 600,
         height: 500,
