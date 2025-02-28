@@ -106,7 +106,7 @@ export default function About() {
                 
                 <h2 className="text-2xl font-semibold mb-4 border-b-2 border-medium pb-2">Where I&apos;ve Worked</h2>
                 <div className="w-full flex flex-col md:flex-row gap-4">
-                    <div className="w-full md:w-1/4 flex md:flex-col overflow-x-auto md:overflow-visible">
+                    <div className="w-full md:w-1/4 flex md:flex-col overflow-x-auto md:overflow-visible scrollbar-hide">
                         {jobs.map((job, index) => (
                             <button 
                                 key={index}

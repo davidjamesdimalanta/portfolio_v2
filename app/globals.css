@@ -16,6 +16,10 @@ body {
   color: #FFF9FB;
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 #link {
   font-weight: 600;
   color: #46351D;
