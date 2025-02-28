@@ -63,7 +63,7 @@ export default function About() {
                                 ensuring that what I build is both functional and intuitive.
                             </p>
                             <p className="mb-4">
-                                I began my coding journey at the start of 2023 as a New Years resolution to learn a new skill. 
+                                I began my coding journey at the start of 2023 as a New Year&apos;s resolution to learn a new skill. 
                                 Today, I am fortunate to have worked with a{" "}
                                 <a 
                                     className="text-accent dark:text-accent-dark hover:underline" 
@@ -104,7 +104,7 @@ export default function About() {
                     </div>
                 </div>
                 
-                <h2 className="text-2xl font-semibold mb-4 border-b-2 border-medium pb-2">Where I've Worked</h2>
+                <h2 className="text-2xl font-semibold mb-4 border-b-2 border-medium pb-2">Where I&apos;ve Worked</h2>
                 <div className="w-full flex flex-col md:flex-row gap-4">
                     <div className="w-full md:w-1/4 flex md:flex-col overflow-x-auto md:overflow-visible">
                         {jobs.map((job, index) => (
