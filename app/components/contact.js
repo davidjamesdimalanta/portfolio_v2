@@ -1,6 +1,3 @@
-'use client'
-import React from "react"
-
 export default function Contact() {
     return(
         <main id="contact" className="w-screen h-[80svh] flex justify-center items-start">

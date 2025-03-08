@@ -1,58 +1,23 @@
-'use client'
-import {useEffect} from "react";
-import Image from "next/image";
-import AOS from "aos";
-import 'aos/dist/aos.css'
-
 export default function Ideation() {
-    useEffect(() => {
-        AOS.init({
-          once: true,
-        });
-      }, []);
     return(
-        <div id="ideas" className="w-full h-max grid grid-flow-col md:grid-flow-row grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-4">
-            <div className="p-4 text-center w-auto flex flex-col items-center text-lg rounded-md shadow-sm border-[1px] bg-white border-gray-200" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-anchor="#ideas">
-                <h1 className="text-2xl md:text-3xl">
-                    Hollistic Recommendations
-                </h1>
-                <Image 
-                    src={'/cuate assets/personal-cuate.png'}
-                    width={300}
-                    height={300}
-                    alt={'freepik cuate resource'}
-                />
-                <span className="text-lg">
-                    Curating user recommendations according to individual preferences.
-                </span>
-            </div>
-            <div className="p-4 text-center w-auto flex flex-col items-center text-lg rounded-md shadow-sm border-[1px] bg-white border-gray-200 md:gap-4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="100" data-aos-anchor="#ideas">
-                <h1 className="text-2xl md:text-3xl">
-                    Social/Private Café Log
-                </h1>
-                <Image 
-                    src={'/cuate assets/reviews-cuate.png'}
-                    width={300}
-                    height={300}
-                    alt={'freepik cuate resource'}
-                />
-                <span className="text-lg">
-                    A way for Lily to review and discuss cafés.
-                </span>
-            </div>
-            <div className="p-4 text-center w-auto flex flex-col items-center text-lg rounded-md shadow-sm border-[1px] bg-white border-gray-200 md:gap-4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">
-                <h1 className="text-2xl md:text-3xl">
-                    Café Profile Page
-                </h1>
-                <Image 
-                    src={'/cuate assets/profile-cuate.png'}
-                    width={300}
-                    height={300}
-                    alt={'freepik cuate resource'}
-                />
-                <span className="text-lg">
-                    Having all the information about individual cafés in one place.
-                </span>
+        <div id="ideas" className="w-screen h-max flex flex-col justify-center items-center gap-8 py-8">
+            <h1 className="text-3xl font-medium">Ideation</h1>
+            <div className="w-[90vw] md:w-[80vw] h-max flex flex-col md:flex-row justify-center items-center gap-8">
+                <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 border-[1px] bg-white border-gray-200">
+                    <h2 className="text-xl font-medium">Idea 1: Café Finder</h2>
+                    <p className="text-sm">A café discovery app that helps users find cafés based on their preferences, such as ambiance, coffee quality, food options, and more.</p>
+                    <p className="text-sm">Users can filter cafés based on their preferences, view ratings and reviews, and get directions to the café of their choice.</p>
+                </div>
+                <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 border-[1px] bg-white border-gray-200 md:gap-4">
+                    <h2 className="text-xl font-medium">Idea 2: Café Companion</h2>
+                    <p className="text-sm">A café companion app that helps users find the perfect café for their needs, such as studying, working, or socializing.</p>
+                    <p className="text-sm">Users can filter cafés based on their needs, view ratings and reviews, and get directions to the café of their choice.</p>
+                </div>
+                <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 border-[1px] bg-white border-gray-200 md:gap-4">
+                    <h2 className="text-xl font-medium">Idea 3: Café Community</h2>
+                    <p className="text-sm">A café community app that helps users connect with other café-goers, share their experiences, and discover new cafés.</p>
+                    <p className="text-sm">Users can join café communities, share their experiences, and discover new cafés based on recommendations from other users.</p>
+                </div>
             </div>
         </div>
     )

@@ -1,5 +1,3 @@
-'use client'
-
 export default function Last() {
     return(
         <div className="w-screen h-[10vh] flex justify-center items-center">

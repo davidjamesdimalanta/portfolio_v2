@@ -1,9 +1,9 @@
 'use client'
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
 
-const Navbar = () => {
+export default function Navbar() {
     const [sideBar, showSideBar] = useState(false);
     const [show, setShow] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
@@ -137,6 +137,4 @@ const Navbar = () => {
       )}
     </nav>
     );
-};
-
-export default Navbar;
+}

@@ -1,10 +1,10 @@
-import React from "react";
+
 import Image from "next/image";
 
 export default function ProblemSpace() {
     return(
         <main id='problem-space'>
-            <div className="pl-4 w-[95svw] h-max flex flex-col md:hidden justify-start items-start overflow-hidden" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-anchor="#problem-space">
+            <div className="pl-4 w-[95svw] h-max flex flex-col md:hidden justify-start items-start overflow-hidden">
                 <h1 className="text-3xl">
                     How can we provide <span className='font-medium'>up-to-date</span> and <span className='font-medium'>personalized information</span> to help users find the perfect café?
                 </h1>
@@ -25,7 +25,7 @@ export default function ProblemSpace() {
                 </div>
             </div>
             <div className="hidden md:w-[80svw] md:h-[80svh] md:grid grid-cols-3 grid-rows-6 md:grid-rows-3 gap-4">
-                <div className="row-span-4 md:row-span-2 col-span-3 md:col-span-2 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 lg:overflow-hidden overflow-y-scroll relative" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="row-span-4 md:row-span-2 col-span-3 md:col-span-2 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 lg:overflow-hidden overflow-y-scroll relative">
                     <div className="w-full h-full flex flex-col items-start gap-4">
                         <h1 className="text-2xl md:text-3xl">
                             How can we provide <span className='font-medium'>up-to-date</span> and <span className='font-medium'>personalized information</span> to help users find the perfect café?
@@ -49,7 +49,7 @@ export default function ProblemSpace() {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-2 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 overflow-hidden overflow-y-scroll" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">
+                <div className="col-span-2 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 overflow-hidden overflow-y-scroll">
                     <h2 className="text-2xl">
                         Youth&apos;s Choice
                     </h2>
@@ -57,7 +57,7 @@ export default function ProblemSpace() {
                     <span className="font-medium">Specialty blended espresso beverages</span> are the most popular among Canadians under 35.
                     </span>
                 </div>
-                <div className="col-span-1 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 overflow-hidden overflow-y-scroll" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="300">
+                <div className="col-span-1 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 overflow-hidden overflow-y-scroll">
                     <h2 className="text-2xl">
                         Review vs. Discovery
                     </h2>
@@ -65,7 +65,7 @@ export default function ProblemSpace() {
                         A split in patron behavior shows reliance on online reviews for some, while others prefer personal discovery.
                     </span>
                 </div>
-                <div className="col-span-1 md:col-span-2 row-span-1 bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 flex relative overflow-hidden gap-2" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="col-span-1 md:col-span-2 row-span-1 bg-white rounded-md shadow-sm border-[1px] border-gray-200 p-4 flex relative overflow-hidden gap-2">
                     <div className="w-1/2 lg:w-1/3">
                         <h2 className="text-xl md:text-2xl">
                             Hub Spots
@@ -90,7 +90,7 @@ export default function ProblemSpace() {
                         </span>
                     </div>
                 </div>
-                <div className="col-span-2 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 overflow-hidden overflow-y-scroll p-4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="400">
+                <div className="col-span-2 md:col-span-1 row-span-1 flex flex-col bg-white rounded-md shadow-sm border-[1px] border-gray-200 overflow-hidden overflow-y-scroll p-4">
                     <h2 className="text-2xl">
                         Shift to Social Media
                     </h2>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function MobileBanner() {
     return(
-        <div className="w-screen h-[100svh] flex justify-center items-start" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" data-aos-easing="ease-in-out">
+        <div className="w-screen h-[100svh] flex justify-center items-start">
             <Image 
                 width={300}
                 height={900}

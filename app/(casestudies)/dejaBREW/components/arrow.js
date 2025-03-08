@@ -1,16 +1,6 @@
-'use client'
-import { useEffect } from "react";
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-
 export default function Arrow(){
-    useEffect(() => {
-        AOS.init({
-          once: true,
-        });
-      }, []);
     return(
-        <div data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="3000">
+        <div>
                     <svg xmlns="http://www.w3.org/2000/svg" 
                         fill="none" 
                         viewBox="0 0 24 24" 

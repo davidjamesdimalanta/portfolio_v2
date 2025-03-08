@@ -1,9 +1,7 @@
-'use client'
-
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function ProjectList({ imgUrl, title, desc, tags, width, height, webLink, buttonText }) {
+export default function ProjectList({ imgUrl, title, desc, tags, width, height, gitLink, webLink, buttonText }) {
     return (
         <div className="flex flex-col h-max border-2 border-dark">
             <a className="relative flex h-auto p-8">

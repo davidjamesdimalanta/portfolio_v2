@@ -1,18 +1,9 @@
-'use client'
-import {useEffect} from "react";
-import AOS from "aos";
-import 'aos/dist/aos.css'
-
 export default function Evaluations() {
-    useEffect(() => {
-        AOS.init({
-          once: true,
-        });
-      }, []);
+
     return (
         <main id='evaluations'>
             <div className="w-full h-max flex flex-col md:grid md:grid-cols-3 md:grid-rows-1 gap-2">
-                <div className="col-span-1 row-span-1 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative gap-4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="col-span-1 row-span-1 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative gap-4">
                     <h1 className="text-2xl md:text-3xl font-medium">
                         Positive Feedback:
                     </h1>
@@ -34,7 +25,7 @@ export default function Evaluations() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-span-1 row-span-1 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative gap-4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <div className="col-span-1 row-span-1 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative gap-4">
                     <h1 className="text-2xl md:text-3xl font-medium">
                         Areas for Improvement:
                     </h1>
@@ -59,7 +50,7 @@ export default function Evaluations() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-span-1 row-span-1 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative gap-4" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="200">
+                <div className="col-span-1 row-span-1 flex flex-col rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative gap-4">
                     <h1 className="text-2xl md:text-3xl font-medium">
                         New Feature Suggestions:
                     </h1>

@@ -1,7 +1,5 @@
-'use client'
-import React from "react"
-import projectdata from "../data/projectdata";
-import ProjectList from "./projectlist";
+import ProjectList from "./projectlist"
+import projectdata from "../data/projectdata"
 
 export default function Projects() {
     return(

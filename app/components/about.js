@@ -1,5 +1,6 @@
-import React, { useState } from "react"
+'use client'
 import Image from "next/image"
+import { useState } from "react"
 
 export default function About() {
     const [activeTabIndex, setActiveTabIndex] = useState(0);

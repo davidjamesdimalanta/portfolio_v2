@@ -1,19 +1,11 @@
-'use client'
-import {useEffect} from "react";
 import Image from "next/image";
-import AOS from "aos";
-import 'aos/dist/aos.css'
 
 export default function NextSteps() {
-    useEffect(() => {
-        AOS.init({
-          once: true,
-        });
-      }, []);
+
     return (
         <main id='key-findings'>
             <div className="w-full h-max flex flex-col md:grid md:grid-cols-4 md:grid-rows-4 gap-2">
-                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center">
                     <h1 className="text-2xl md:text-3xl">
                         Review Fact Checker
                     </h1>
@@ -29,7 +21,7 @@ export default function NextSteps() {
                         </span>
                     </div>
                 </div>
-                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center">
                     <h1 className="text-2xl md:text-3xl">
                         Live Occupancy Data
                     </h1>
@@ -45,7 +37,7 @@ export default function NextSteps() {
                         </span>
                     </div>
                 </div>
-                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center">
                     <h1 className="text-2xl md:text-3xl">
                         Gamification
                     </h1>
@@ -61,7 +53,7 @@ export default function NextSteps() {
                         </span>
                     </div>
                 </div>
-                <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div className="col-span-2 row-span-2 flex flex-col  rounded-md shadow-sm border-[1px] bg-white border-gray-200 p-4 overflow-hidden relative text-center">
                     <h1 className="text-2xl md:text-3xl">
                         Café Owner Features
                     </h1>

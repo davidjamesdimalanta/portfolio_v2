@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 export default function Persona() {
@@ -13,7 +12,6 @@ export default function Persona() {
                 height={400}
                 alt={'User persona Lily Latte'}
                 className="hover:scale-105 transition ease-in-out"
-                data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out"
             />
             <h2 className="pt-4 w-full text-4xl">
                 To better understand Lily&apos;s needs, we delve into our <span className="font-medium">empathy map</span>, which provides deeper insights into what she <span className="font-medium">says, thinks, feels, and does</span> during her cafe experiences.
@@ -24,7 +22,6 @@ export default function Persona() {
                 height={400}
                 alt={'empathy map'}
                 className="hover:scale-105 transition ease-in-out"
-                data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out"
             />
         </div>
     )
