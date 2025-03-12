@@ -13,8 +13,8 @@ module.exports = {
   			medium: '#646F4B',
   			'medium-light': '#839D9A',
   			accent: {
-  				DEFAULT: 'hsl(var(--accent))',
-  				foreground: 'hsl(var(--accent-foreground))'
+  				DEFAULT: '#0000FF',
+  				dark: '#CCCCFF'
   			},
   			'accent-dark': '#CCCCFF',
   			light: '#BFD2BF',
