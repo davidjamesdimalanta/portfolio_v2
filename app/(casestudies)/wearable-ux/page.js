@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import BeforeAfterComparison from './components/BeforeAfterComparison'
 import Link from 'next/link'
 
 
@@ -8,37 +7,37 @@ export default function InnovationHubCaseStudy() {
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="mb-16">
-        <h1 className="text-4xl font-bold">Innovation Hub Website Redesign</h1>
-        <h2 className="text-3xl mb-6">A UX case study on improving clarity, impact, and user experience for the University of Toronto&apos;s Innovation Hub.</h2>
+        <h1 className="text-4xl font-bold">Wearable UX Case Study</h1>
+        <h2 className="text-3xl mb-6">A speculative design project on affective computing. Coming Soon.</h2>
         <Image 
-          src="/ihub assets/Landing_Snapshot_new.png" 
-          alt="Innovation Hub Redesigned Landing Page" 
+          src="/project previews/Speculative-AI.png" 
+          alt="Speculative AI Landing Page" 
           width={1200} 
           height={300} 
           className="rounded-md border border-medium-light"
         />
       </div>
-
-      {/* Project Overview */}
+{/*
+      Project Overview
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Project Overview</h2>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="border-l-2 border-medium-light p-6">
+          <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-semibold mb-3">Timeline</h3>
             <p>April 2024 - June 2024</p>
           </div>
-          <div className="border-l-2 border-medium-light p-6">
+          <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-semibold mb-3">My Role</h3>
             <p>UX Designer, Frontend Developer Lead</p>
           </div>
-          <div className="border-l-2 border-medium-light p-6">
+          <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-semibold mb-3">Tools Used</h3>
             <p>Figma, Wordpress, HTML, CSS, JavaScript</p>
           </div>
         </div>
       </section>
 
-      {/* Research & Discovery */}
+       Research & Discovery
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Research & Discovery</h2>
         
@@ -54,21 +53,21 @@ export default function InnovationHubCaseStudy() {
           </div>
           <div className="border border-medium-light p-6 rounded-lg">
             <h4 className="font-bold mb-2">External Users</h4>
-            <p>Visitors from outside U of T who need to quickly understand the Innovation Hub&apos;s purpose and impact.</p>
+            <p>Visitors from outside U of T who need to quickly understand the Innovation Hub's purpose and impact.</p>
           </div>
         </div>
         
         <h3 className="text-2xl font-semibold mb-4">Problem Space</h3>
         <div className="border border-medium-light p-6 rounded-lg mb-8">
           <ul className="list-disc pl-6 space-y-3">
-            <li><strong>Lack of Clarity:</strong> Stakeholders couldn&apos;t understand what Innovation Hub was, despite reading the landing page</li>
-            <li><strong>Poor Space Utilization:</strong> Excessive white space that didn&apos;t effectively communicate information</li>
-            <li><strong>Unclear Impact:</strong> Difficulty understanding the Hub&apos;s achievements and value to the university community</li>
+            <li><strong>Lack of Clarity:</strong> Stakeholders couldn't understand what Innovation Hub was, despite reading the landing page</li>
+            <li><strong>Poor Space Utilization:</strong> Excessive white space that didn't effectively communicate information</li>
+            <li><strong>Unclear Impact:</strong> Difficulty understanding the Hub's achievements and value to the university community</li>
           </ul>
         </div>
       </section>
 
-      {/* Design Process */}
+       Design Process 
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Design Process</h2>
         
@@ -79,7 +78,7 @@ export default function InnovationHubCaseStudy() {
         
         <div>
           <h3 className="text-2xl font-semibold mb-4">Design Iterations</h3>
-          <p className="mb-4">After creating multiple iterations of the landing page, we conducted usability evaluations with users to see which variations were most effective at communicating the Innovation Hub&apos;s purpose and impact.</p>
+          <p className="mb-4">After creating multiple iterations of the landing page, we conducted usability evaluations with users to see which variations were most effective at communicating the Innovation Hub's purpose and impact.</p>
           <Image 
             src="/ihub assets/iterations_snapshot.png" 
             alt="Design Iterations" 
@@ -90,14 +89,14 @@ export default function InnovationHubCaseStudy() {
         </div>
       </section>
 
-      {/* Solutions */}
+      Solutions 
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Solutions Implemented</h2>
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="relative border border-medium-light p-6 rounded-lg overflow-hidden min-h-[350px]">
             <h3 className="text-xl font-semibold mb-3">Clear Language</h3>
-            <p className="mb-4">Simplified and refined content to ensure visitors immediately understand the Innovation Hub&apos;s purpose and offerings.</p>
+            <p className="mb-4">Simplified and refined content to ensure visitors immediately understand the Innovation Hub's purpose and offerings.</p>
             <Image 
               src="/ihub assets/clear_language.png" 
               alt="Innovation Hub website before redesign"
@@ -122,32 +121,30 @@ export default function InnovationHubCaseStudy() {
           <div className="border border-medium-light p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Improved CTAs</h3>
             <p className="mb-4">Created clear pathways to important content with strategically placed, action-oriented call-to-action buttons.</p>
-            {/* You could add a CTA example image here */}
+            
           </div>
           
           <div className="border border-medium-light p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Enhanced Visual Design</h3>
             <p className="mb-4">Improved spacing, formatting, and incorporated relevant graphics to create a more engaging user experience.</p>
-            {/* You could add a visual design example here */}
+            
           </div>
         </div>
       </section>
       
-      {/* Results & Impact */}
+      
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Results & Impact</h2>
         <p className="mb-8">Increased SUS score +10, and users reported that the redesigned site was more user-friendly and effective.</p>
-
-        {/* Before/After Comparison with Resizable Component */}
-        <BeforeAfterComparison />
       </section>
       
-      {/* Reflections */}
+      
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Reflections</h2>
-        <p className="mb-4">This project was a great opportunity to work with stakeholders to improve the Innovation Hub&apos;s website. It was also a great opportunity to learn about the importance of clear language and visual design in user experience.</p>
+        <p className="mb-4">This project was a great opportunity to work with stakeholders to improve the Innovation Hub's website. It was also a great opportunity to learn about the importance of clear language and visual design in user experience.</p>
         <button className=" border border-medium-light font-semibold px-4 py-2 rounded-md">See the full website here</button>
-      </section>
+      </section> 
+*/}
 
       {/* Case Study Navigation */}
       <section className="mt-16 pt-8 border-t border-medium-light">
@@ -174,10 +171,10 @@ export default function InnovationHubCaseStudy() {
           </Link>
           
           <Link 
-            href="/wearable-ux" 
+            href="/ux-internship" 
             className="group flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors duration-300"
           >
-            Next: Wearable UX Case Study
+            Next: UX Research Internship
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" 
