@@ -18,9 +18,9 @@ const FeaturedData = [
         tags: ['Wordpress', 'Elementor', 'CSS', 'PHP', 'Beaver Builder'],
         width: 800,
         height: 400,
-        webLink: 'https://blogs.studentlife.utoronto.ca/innovationhub/',
+        webLink: '/innovation-hub',
         projectId: "ihub-website",
-        buttonText: 'View Website',
+        buttonText: 'View Case Study',
     },
     {
         imgUrl: '/project previews/Speculative-AI.png',
