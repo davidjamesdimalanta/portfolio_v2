@@ -59,7 +59,7 @@ export default function Navbar() {
     return (
       <nav className={`fixed top-0 w-screen h-max bg-[#FFF9FB] flex justify-between items-center p-4 md:p-6 shadow-sm z-50 ${navbarAnimation}`}>
         <Link href={"/"}>
-          <span className='font-dmSans text-2xl font-semibold'>David James</span>
+          <span className='font-dmSans text-2xl font-semibold'>Home</span>
         </Link>
         {/* Desktop menu - removed theme toggle */}
         <div className='hidden md:flex flex-grow justify-end items-center gap-4'>
