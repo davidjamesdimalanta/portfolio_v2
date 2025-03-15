@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import BeforeAfterComparison from './components/BeforeAfterComparison'
 import Link from 'next/link'
+import ProblemSpace from './components/ProblemSpace'
 
 
 export default function InnovationHubCaseStudy() {
@@ -9,7 +10,7 @@ export default function InnovationHubCaseStudy() {
       {/* Hero Section */}
       <div className="mb-16">
         <h1 className="text-4xl font-bold">Innovation Hub Website Redesign</h1>
-        <h2 className="text-3xl mb-6">A UX case study on improving clarity, impact, and user experience for the University of Toronto&apos;s Innovation Hub.</h2>
+        <h2 className="text-2xl mb-6">Improving clarity, impact, and user experience for the University of Toronto&apos;s Innovation Hub.</h2>
         <Image 
           src="/ihub assets/Landing_Snapshot_new.png" 
           alt="Innovation Hub Redesigned Landing Page" 
@@ -41,8 +42,19 @@ export default function InnovationHubCaseStudy() {
       {/* Research & Discovery */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Research & Discovery</h2>
-        
+
+        {/* <h3 className="text-2xl font-semibold mb-4">Problem Space</h3>
+        <div className="border border-medium-light p-6 rounded-lg mb-8">
+          <ul className="list-disc pl-6 space-y-3 text-xl">
+            <li><strong>Lack of Clarity:</strong> Stakeholders couldn&apos;t understand what Innovation Hub was, despite reading the landing page</li>
+            <li><strong>Poor Space Utilization:</strong> Excessive white space that didn&apos;t effectively communicate information</li>
+            <li><strong>Unclear Impact:</strong> Difficulty understanding the Hub&apos;s achievements and value to the university community</li>
+          </ul>
+        </div> */}
+        <ProblemSpace />
+
         <h3 className="text-2xl font-semibold mb-4">Stakeholder Analysis</h3>
+        <p className="text-xl mb-4">In order to understand who this website serves and what pain points they may have, I conducted stakeholder interviews with the Innovation Hub&apos;s stakeholders. Here's what I found:</p>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="border border-medium-light p-6 rounded-lg">
             <h4 className="font-bold mb-2">Students</h4>
@@ -56,15 +68,6 @@ export default function InnovationHubCaseStudy() {
             <h4 className="font-bold mb-2">External Users</h4>
             <p>Visitors from outside U of T who need to quickly understand the Innovation Hub&apos;s purpose and impact.</p>
           </div>
-        </div>
-        
-        <h3 className="text-2xl font-semibold mb-4">Problem Space</h3>
-        <div className="border border-medium-light p-6 rounded-lg mb-8">
-          <ul className="list-disc pl-6 space-y-3">
-            <li><strong>Lack of Clarity:</strong> Stakeholders couldn&apos;t understand what Innovation Hub was, despite reading the landing page</li>
-            <li><strong>Poor Space Utilization:</strong> Excessive white space that didn&apos;t effectively communicate information</li>
-            <li><strong>Unclear Impact:</strong> Difficulty understanding the Hub&apos;s achievements and value to the university community</li>
-          </ul>
         </div>
       </section>
 
