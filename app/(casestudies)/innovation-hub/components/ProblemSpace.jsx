@@ -15,20 +15,20 @@ export default function ProblemSpace() {
     const problems = [
         {
             title: "Lack of Clarity",
-            explanation: "Stakeholders couldn't understand what Innovation Hub was, despite reading the landing page. Content was overly complex and lacked a clear value proposition.",
-            imageSrc: "/ihub assets/problem_space/lackofclarity.png", // Replace with actual image path
+            explanation: "Stakeholders couldn&apos;t understand what Innovation Hub was, despite reading the landing page. Content was overly complex and lacked a clear value proposition.",
+            imageSrc: "/ihub assets/problem_space/lackofclarity.png",
             imageAlt: "Screenshot showing lack of clarity in the original design"
         },
         {
             title: "Poor Space Utilization",
-            explanation: "Excessive white space that didn't effectively communicate information. Important content was buried below the fold, leading to high bounce rates.",
-            imageSrc: "/ihub assets/problem_space/poorspaceutil.png", // Replace with actual image path
+            explanation: "Excessive white space that didn&apos;t effectively communicate information. Important content was buried below the fold, leading to high bounce rates.",
+            imageSrc: "/ihub assets/problem_space/poorspaceutil.png", 
             imageAlt: "Screenshot showing poor space utilization"
         },
         {
             title: "Unclear Impact",
-            explanation: "Difficulty understanding the Hub's achievements and value to the university community. Metrics and success stories were absent from the main user flows.",
-            imageSrc: "/ihub assets/problem_space/unclearimpact.png", // Replace with actual image path
+            explanation: "Difficulty understanding the Hub&apos;s achievements and value to the university community. Metrics and success stories were absent from the main user flows.",
+            imageSrc: "/ihub assets/problem_space/unclearimpact.png", 
             imageAlt: "Screenshot showing unclear impact presentation"
         }
     ];
