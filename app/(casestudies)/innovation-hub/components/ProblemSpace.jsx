@@ -15,13 +15,13 @@ export default function ProblemSpace() {
     const problems = [
         {
             title: "Lack of Clarity",
-            explanation: "Stakeholders couldn&apos;t understand what Innovation Hub was, despite reading the landing page. Content was overly complex and lacked a clear value proposition.",
+            explanation: "Stakeholders couldn't understand what Innovation Hub was, despite reading the landing page. Content was overly complex and lacked a clear value proposition.",
             imageSrc: "/ihub assets/problem_space/lackofclarity.png",
             imageAlt: "Screenshot showing lack of clarity in the original design"
         },
         {
             title: "Poor Space Utilization",
-            explanation: "Excessive white space that didn&apos;t effectively communicate information. Important content was buried below the fold, leading to high bounce rates.",
+            explanation: "Excessive white space that didn't effectively communicate information. Important content was buried below the fold, leading to high bounce rates.",
             imageSrc: "/ihub assets/problem_space/poorspaceutil.png", 
             imageAlt: "Screenshot showing poor space utilization"
         },
@@ -55,9 +55,9 @@ export default function ProblemSpace() {
     }, [activeProblem]);
 
     return (
-        <section className="mb-16 min-h-[600px]">
-            <h2 className="text-3xl font-bold mb-6">Problem Space</h2>
-            
+        <section className="min-h-[600px]">
+            <h2 className="text-2xl font-bold mb-4">Problem Space</h2>
+            <p className="text-xl mb-4">Through usability evaluations, we identified three main pain points that users experienced with the Innovation Hub&apos;s website.</p>
             <div className="flex flex-col-reverse md:flex-row gap-2 md:gap-8">
                 {/* Left side - Tabs */}
                 <div className="md:w-1/2 flex flex-col gap-4 min-h-[450px] mt-8 md:mt-0">
@@ -88,7 +88,7 @@ export default function ProblemSpace() {
                 </div>
                 
                 {/* Right side - Images with transition */}
-                <div className="md:w-1/2 border border-medium-light rounded-lg p-4 flex items-center justify-center min-h-[450px]">
+                <div className="md:w-1/2 border border-medium-light rounded-lg p-4 flex items-center justify-center min-h-[350px]">
                     {/* Display image for the active problem with fade transition */}
                     <div className="relative w-full h-[300px]">
                         {currentImage && (

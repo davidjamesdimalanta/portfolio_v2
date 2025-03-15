@@ -51,10 +51,10 @@ export default function InnovationHubCaseStudy() {
             <li><strong>Unclear Impact:</strong> Difficulty understanding the Hub&apos;s achievements and value to the university community</li>
           </ul>
         </div> */}
-        <ProblemSpace />
+
 
         <h3 className="text-2xl font-semibold mb-4">Stakeholder Analysis</h3>
-        <p className="text-xl mb-4">In order to understand who this website serves and what pain points they may have, I conducted stakeholder interviews with the Innovation Hub&apos;s stakeholders. Here's what I found:</p>
+        <p className="text-xl mb-4">In order to understand who this website serves and what pain points they may have, we conducted interviews with the Innovation Hub&apos;s stakeholders. Here&apos;s what we found:</p>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="border border-medium-light p-6 rounded-lg">
             <h4 className="font-bold mb-2">Students</h4>
@@ -70,6 +70,7 @@ export default function InnovationHubCaseStudy() {
           </div>
         </div>
       </section>
+      <ProblemSpace />
 
       {/* Design Process */}
       <section className="mb-16">
@@ -83,13 +84,16 @@ export default function InnovationHubCaseStudy() {
         <div>
           <h3 className="text-2xl font-semibold mb-4">Design Iterations</h3>
           <p className="mb-4">After creating multiple iterations of the landing page, we conducted usability evaluations with users to see which variations were most effective at communicating the Innovation Hub&apos;s purpose and impact.</p>
-          <Image 
-            src="/ihub assets/iterations_snapshot.png" 
-            alt="Design Iterations" 
-            width={1200} 
-            height={500} 
-            className="rounded-md border border-medium-light"
-          />
+          <figure className="mb-4">
+            <Image 
+              src="/ihub assets/iterations_snapshot.png" 
+              alt="Design Iterations" 
+              width={1200} 
+              height={500} 
+              className="rounded-xl border border-medium-light"
+            />
+            <figcaption className="text-center text-medium mt-2 italic">Multiple landing page design iterations tested with stakeholders</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -125,13 +129,11 @@ export default function InnovationHubCaseStudy() {
           <div className="border border-medium-light p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Improved CTAs</h3>
             <p className="mb-4">Created clear pathways to important content with strategically placed, action-oriented call-to-action buttons.</p>
-            {/* You could add a CTA example image here */}
           </div>
           
           <div className="border border-medium-light p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Enhanced Visual Design</h3>
             <p className="mb-4">Improved spacing, formatting, and incorporated relevant graphics to create a more engaging user experience.</p>
-            {/* You could add a visual design example here */}
           </div>
         </div>
       </section>
@@ -139,7 +141,7 @@ export default function InnovationHubCaseStudy() {
       {/* Results & Impact */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-6">Results & Impact</h2>
-        <p className="mb-8">Increased SUS score +10, and users reported that the redesigned site was more user-friendly and effective.</p>
+        <p className="mb-8">Increased System Usability Scale (SUS) score +10, and users reported that the redesigned site was more user-friendly and effective.</p>
 
         {/* Before/After Comparison with Resizable Component */}
         <BeforeAfterComparison />
