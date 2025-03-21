@@ -1,9 +1,38 @@
 'use client'
 import Image from "next/image"
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 
 export default function About() {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
+    const tabsContainerRef = useRef(null);
+    
+    // Function to scroll to active tab
+    const scrollToActiveTab = () => {
+        if (!tabsContainerRef.current) return;
+        
+        const tabsContainer = tabsContainerRef.current;
+        const activeTab = tabsContainer.children[activeTabIndex];
+        
+        // Only scroll if the container is overflowing
+        if (tabsContainer.scrollWidth > tabsContainer.clientWidth) {
+            const containerWidth = tabsContainer.clientWidth;
+            const tabOffsetLeft = activeTab.offsetLeft;
+            const tabWidth = activeTab.clientWidth;
+            
+            // Center the tab in the view when possible
+            const scrollPosition = tabOffsetLeft - (containerWidth / 2) + (tabWidth / 2);
+            
+            tabsContainer.scrollTo({
+                left: Math.max(0, scrollPosition),
+                behavior: 'smooth'
+            });
+        }
+    };
+    
+    // Scroll to active tab when it changes
+    useEffect(() => {
+        scrollToActiveTab();
+    }, [activeTabIndex]);
     
     const jobs = [
         {
@@ -107,7 +136,10 @@ export default function About() {
                 
                 <h2 className="text-2xl font-semibold mb-4 border-b-2 border-medium pb-2">Where I&apos;ve Worked</h2>
                 <div className="w-full flex flex-col md:flex-row gap-4">
-                    <div className="w-full md:w-1/4 flex md:flex-col overflow-x-auto md:overflow-visible scrollbar-hide">
+                    <div 
+                        ref={tabsContainerRef}
+                        className="w-full md:w-1/4 flex md:flex-col overflow-x-auto md:overflow-visible scrollbar-hide"
+                    >
                         {jobs.map((job, index) => (
                             <button 
                                 key={index}

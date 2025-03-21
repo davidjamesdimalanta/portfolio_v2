@@ -48,10 +48,6 @@ export default function Navbar() {
       }
     }, [sideBar]);
 
-    // const toggleTheme = () => {
-    //   setTheme(theme === 'dark' ? 'light' : 'dark');
-    // };
-
     const navbarAnimation = show ? 'animate-slideDown' : 'animate-slideUp';
 
     if (!renderNavbar) return null;
@@ -88,9 +84,9 @@ export default function Navbar() {
               onClick={() => showSideBar(!sideBar)}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
-            <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4'>
+            <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4 text-right'>
               <Link href={"/dejaBREW"} onClick={() => showSideBar(false)} className='hover:underline'>dejaBrew Case Study</Link>
-              <Link href={"/innovation-hub"} onClick={() => showSideBar(false)} className='hover:underline' >Innovation Hub Case Study</Link>
+              <Link href={"/innovation-hub"} onClick={() => showSideBar(false)} className='hover:underline' >iHub Case Study</Link>
               <Link href={"/JAV2025CV.pdf"} target='_blank' onClick={() => showSideBar(false)} className='hover:underline'>CV</Link>
             </ul>
           </div>

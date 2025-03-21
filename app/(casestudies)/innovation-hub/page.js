@@ -6,7 +6,7 @@ import ProblemSpace from './components/ProblemSpace'
 
 export default function InnovationHubCaseStudy() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-20 md:py-12">
       {/* Hero Section */}
       <div className="mb-16">
         <h1 className="text-4xl font-bold">Innovation Hub Website Redesign</h1>

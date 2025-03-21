@@ -14,6 +14,7 @@ import PrimarySummary from './components/artefacts/primaryresearch.js';
 import Affinity from './components/artefacts/affinity';
 import ScenarioMapping from './components/artefacts/scenariomapping.js';
 import LilysNeeds from './components/artefacts/needs';
+import Link from 'next/link';
 
 import Image from 'next/image';
 
@@ -192,7 +193,53 @@ export default function DejaBrew() {
             </a>
           </div>
           </section>
-          <Last />
+
+          {/* Case Study Navigation */}
+      <section className="max-w-6xl mx-auto mt-12 p-12 border-t border-medium-light">
+        <div className="flex flex-col sm:flex-row justify-between items-center">
+          <Link 
+            href={"/"} 
+            className="group flex items-center mb-4 sm:mb-0 px-6 py-3 bg-none border border-medium-light hover:bg-dark text-dark hover:text-white hover:border-dark rounded-md transition-colors duration-300"
+          >
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="24" 
+              height="24" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              className="mr-2 group-hover:-translate-x-1 transition-transform duration-300"
+            >
+              <path d="m15 18-6-6 6-6" />
+            </svg>
+            Previous: Portfolio Website
+          </Link>
+          
+          <Link 
+            href="/wearable-ux" 
+            className="group flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors duration-300"
+          >
+            Next: Wearable UX Case Study
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="24" 
+              height="24" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              className="ml-2 group-hover:translate-x-1 transition-transform duration-300"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </Link>
+        </div>
+      </section>
         </main>
     )
 }

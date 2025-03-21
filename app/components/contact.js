@@ -18,7 +18,7 @@ export default function Contact() {
                                 Say Hi!
                             </button>
                         </a>
-                        <a href="/JAV2025CV.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="/davidjamesCV.pdf" target="_blank" rel="noopener noreferrer">
                             <button id="underline-inverted">
                                 CV
                             </button>

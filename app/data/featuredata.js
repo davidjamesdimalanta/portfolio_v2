@@ -33,28 +33,6 @@ const FeaturedData = [
         projectId: "speculative-ai",
         buttonText: 'Coming Soon',
     },
-    {
-        imgUrl: '/project previews/vscode-app.png',
-        title: 'Reimagining VSCode on Mobile',
-        desc: 'This UX case study re-imagines the VS Code IDE on a phone.',
-        tags: ['UX Design', 'Figma', 'Prototyping', 'User Testing'],
-        width: 500,
-        height: 500,
-        webLink: 'https://www.figma.com/proto/laqLwNUtSGnV1KgFkEGEur/VS-Code-IOS-App?page-id=0%3A1&node-id=63-1327&viewport=382%2C243%2C0.1&t=mq9vLbG3uFG1JKae-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=63%3A1327',
-        projectId: "vscode-app",
-        buttonText: 'View Prototype',
-    },
-    {
-        imgUrl: '/project previews/fang-health.png',
-        title: 'Medical App - Wearable UI',
-        desc: 'A UX Case Study on a mobile and watch app for a medical clinic.',
-        tags: ['UX Design', 'Figma', 'Figma: Variables', 'Prototyping', 'User Testing'],
-        width: 500,
-        height: 500,
-        webLink: 'https://www.figma.com/proto/xPredPjECXwOSEmXVUf8oM/INF353-A2?page-id=1%3A15&node-id=2-21&p=f&viewport=839%2C894%2C0.26&t=ROSeKMA955Vxv0gO-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A21',
-        projectId: "health-app",
-        buttonText: 'View Prototype',
-    },
 ]
 
 export default FeaturedData
