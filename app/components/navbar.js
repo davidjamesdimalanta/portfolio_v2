@@ -1,97 +1,107 @@
 'use client'
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 // import { useTheme } from 'next-themes';
 
 export default function Navbar() {
-    const [sideBar, showSideBar] = useState(false);
-    const [show, setShow] = useState(true);
-    const [lastScrollY, setLastScrollY] = useState(0);
-    const [renderNavbar, setRenderNavbar] = useState(false);
-    // const { theme, setTheme } = useTheme();
-
-    useEffect(() => {
-      const timer = setTimeout(() => {
-          setRenderNavbar(true); // Enable rendering after 3 seconds
-      }, 2500);
-
-      return () => clearTimeout(timer);
-    }, []);
-
-    const controlNavbar = useCallback(() => {
-      if (typeof window !== 'undefined') {
-        setTimeout(() => {
-          if (window.scrollY > lastScrollY) {
-            setShow(false);
-          } else {
-            setShow(true);
-          }
-          setLastScrollY(window.scrollY);
-        }, 100);
-      };
-    }, [lastScrollY]);
-  
-    useEffect(() => {
-      if (typeof window !== 'undefined') {
-        window.addEventListener('scroll', controlNavbar);
-        return () => window.removeEventListener('scroll', controlNavbar);
-      }
-    }, [controlNavbar]);
+    const [menuExpanded, setMenuExpanded] = useState(true);
 
     useEffect(() => {
       if (typeof document !== 'undefined') {
-        if (sideBar) {
-          document.body.style.overflow = 'hidden';
+        if (!menuExpanded) {
+          document.body.style.overflow = '';
         } else {
           document.body.style.overflow = '';
         }
       }
-    }, [sideBar]);
-
-    const navbarAnimation = show ? 'animate-slideDown' : 'animate-slideUp';
-
-    if (!renderNavbar) return null;
+    }, [menuExpanded]);
 
     return (
-      <nav className={`fixed top-0 w-screen h-max bg-[#FFF9FB] flex justify-between items-center p-4 md:p-6 shadow-sm z-50 ${navbarAnimation}`}>
-        <Link href={"/"}>
-          <span className='font-dmSans text-2xl font-semibold'>Home</span>
-        </Link>
-        {/* Desktop menu - removed theme toggle */}
-        <div className='hidden md:flex flex-grow justify-end items-center gap-4'>
-          {/* Theme toggle button removed */}
-        </div>
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          fill="none" 
-          viewBox="0 0 24 24" 
-          strokeWidth="1.5" 
-          stroke="currentColor" 
-          className="w-8 h-8 max-h-fit md:hidden hover:cursor-pointer"
-          onClick={() => showSideBar(!sideBar)}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-        {sideBar && (
-        <div className='md:hidden fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-40 flex justify-end'>
-          <div className='w-3/5 h-screen bg-[#F7F4EC] flex flex-col justify-start items-end p-6 gap-2 animate-slide'>
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              strokeWidth="1.5" 
-              stroke="currentColor" 
-              className="w-8 h-8 max-h-fit md:hidden"
-              onClick={() => showSideBar(!sideBar)}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-            <ul className='w-full h-auto flex flex-col items-end text-lg gap-4 pt-4 text-right'>
-              <Link href={"/dejaBREW"} onClick={() => showSideBar(false)} className='hover:underline'>dejaBrew Case Study</Link>
-              <Link href={"/innovation-hub"} onClick={() => showSideBar(false)} className='hover:underline' >iHub Case Study</Link>
-              <Link href={"/JAV2025CV.pdf"} target='_blank' onClick={() => showSideBar(false)} className='hover:underline'>CV</Link>
-            </ul>
+      <div className="fixed bottom-4 right-4 z-50 max-w-56 max-h-56">
+        {/* Menu when collapsed - just the button */}
+        {!menuExpanded && (
+          <div className="fixed bottom-8 right-8 z-50">
+            <button 
+              onClick={() => setMenuExpanded(true)}
+              className="w-14 h-14 border-[1px] border-dark bg-transparent backdrop-blur-md rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                strokeWidth="2" 
+                stroke="currentColor" 
+                className="w-7 h-7 text-dark dark:text-gray-900"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
           </div>
-        </div>
         )}
-      </nav>
+
+        {/* Expanded Menu - includes links and close button */}
+        {menuExpanded && (
+          <div className=''>
+            <div className="fixed max-w-64 max-h-64 bottom-4 right-4 z-50 bg-transparent backdrop-blur-md rounded-lg shadow-2xl p-4">
+              
+              <div className="flex flex-col space-y-3">
+                <Link 
+                  href="/" 
+                  className="font-dmSans text-lg font-medium hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  onClick={() => setMenuExpanded(false)}
+                >
+                  Home
+                </Link>
+                <Link 
+                  href="/dejaBREW" 
+                  className="font-dmSans text-lg hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  onClick={() => setMenuExpanded(false)}
+                >
+                  dejaBrew Case Study
+                </Link>
+                <Link 
+                  href="/innovation-hub" 
+                  className="font-dmSans text-lg hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  onClick={() => setMenuExpanded(false)}
+                >
+                  iHub Case Study
+                </Link>
+                <Link 
+                  href="/JAV2025CV.pdf" 
+                  target='_blank'
+                  className="font-dmSans text-lg hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  onClick={() => setMenuExpanded(false)}
+                >
+                  CV
+                </Link>
+              </div>
+
+              <div className="flex justify-end items-start mt-4">
+                <button 
+                  onClick={() => setMenuExpanded(false)}
+                  className="w-14 h-14 border-[1px] border-dark bg-transparent rounded-full flex items-center justify-center hover:scale-105 transition-transform"
+                >
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    strokeWidth="2" 
+                    stroke="currentColor" 
+                    className="w-5 h-5 text-dark"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            
+            {/* Background overlay */}
+            <div 
+              className="fixed inset-0 z-[49]" 
+              onClick={() => setMenuExpanded(false)}
+            />
+          </div>
+        )}
+      </div>
     );
 }

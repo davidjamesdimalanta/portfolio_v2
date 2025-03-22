@@ -12,18 +12,20 @@ export default function Prototypes() {
                     src="/mockups/FeaturePath1.gif"
                     width={250}
                     height={500}
-                    alt={'mid-fi prototype'}
-                    loading="eager"
+                    alt="Prototype demonstrating preference-based cafe recommendations"
                     className="hidden md:inline-block"
-                    unoptimized
+                    priority
+                    sizes="(max-width: 768px) 100vw, 250px"
                 />
                 <Image 
                     src="/mockups/mockup3.png"
                     width={250}
                     height={500}
-                    alt={'mid-fi prototype'}
-                    loading="eager"
+                    alt="Static mockup showing cafe recommendation interface"
                     className="block md:hidden"
+                    sizes="(max-width: 768px) 100vw, 250px"
+                    placeholder="blur"
+                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
                 />
         </div>
         <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 items-center text-center">
@@ -34,18 +36,21 @@ export default function Prototypes() {
                 src="/mockups/FeaturePath2.5.gif"
                 width={250}
                 height={500}
-                alt={'mid-fi prototype'}
-                loading="eager"
+                alt="Prototype showing detailed cafe information view"
                 className="hidden md:inline-block"
-                unoptimized
+                sizes="(max-width: 768px) 100vw, 250px"
+                loading="lazy"
             />
             <Image 
                 src="/mockups/mockup4.png"
                 width={250}
                 height={500}
-                alt={'mid-fi prototype'}
-                loading="eager"
+                alt="Static mockup of cafe details interface"
                 className="block md:hidden"
+                sizes="(max-width: 768px) 100vw, 250px"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
             />
         </div>
         <div className="w-full md:w-1/3 h-max flex flex-col gap-2 rounded p-4 items-center text-center">
@@ -56,18 +61,21 @@ export default function Prototypes() {
                 src="/mockups/FeaturePath3.gif"
                 width={250}
                 height={500}
-                alt={'mid-fi prototype'}
-                loading="eager"
+                alt="Prototype showing cafe review and discussion functionality"
                 className="hidden md:inline-block"
-                unoptimized
+                sizes="(max-width: 768px) 100vw, 250px"
+                loading="lazy"
             />
             <Image 
                 src="/mockups/mockup5.png"
                 width={250}
                 height={500}
-                alt={'mid-fi prototype'}
-                loading="eager"
+                alt="Static mockup of the review interface"
                 className="block md:hidden"
+                sizes="(max-width: 768px) 100vw, 250px"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
             />
         </div>
     </div>

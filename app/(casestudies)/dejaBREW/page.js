@@ -2,7 +2,6 @@ import Arrow from './components/arrow';
 import Banner from './components/banner';
 import MobileBanner from './components/mobilebanner';
 import Summary from './components/summary';
-import Last from '@/app/components/last';
 import ProblemSpace from './components/problemspace';
 import Persona from './components/persona';
 import KeyFindings from './components/keyfindings';
@@ -36,7 +35,7 @@ export default function DejaBrew() {
                 <MobileBanner />
               </div>
           </div>
-          <div className='w-screen h-max bg-[#855439] flex justify-center items-center'>
+          <div id='overview' className='w-screen h-max flex justify-center items-center border-t border-medium-light'>
             <Summary />
           </div>
 

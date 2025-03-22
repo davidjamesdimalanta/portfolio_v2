@@ -109,7 +109,7 @@ module.exports = {
   			slideUp: 'slideUp 0.5s ease-in-out forwards',
   			slideDown: 'slideDown 0.5s ease-in-out forwards',
   			slide: 'slide 0.25s ease-in-out',
-  			scalePulse: 'scalePulse 2s ease-in-out forwards'
+  			scalePulse: 'scalePulse 2s ease-in-out forwards',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
