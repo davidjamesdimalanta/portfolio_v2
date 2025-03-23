@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Landing() {
     return(
         <main id="landing" className="w-screen h-[80svh] flex flex-col justify-center items-center">
-            <div className="w-[80vw] md:w-[70vw] h-[90svh] md:h-[70svh] flex flex-col justify-center items-start gap-2">
+            <div className="w-[80vw] h-[90svh] md:h-[70svh] flex flex-col justify-center items-start gap-2">
                 <h1 className="text-2xl">
                     Hello, my name is
                 </h1>

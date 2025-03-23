@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ProjectList({ imgUrl, title, desc, tags, width, height, gitLink, webLink, buttonText }) {
     return (
-        <div className="flex flex-col h-max border-2 border-dark">
+        <div className="flex flex-col h-full border-[1px] border-dark rounded-sm">
             <a className="relative flex h-auto p-8">
                 <Image 
                     src={imgUrl}

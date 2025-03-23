@@ -3,12 +3,11 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import FeaturedData from "../data/featuredata"
 
 export default function FeatureList({ imgUrl, title, desc, tags, width, height, gitLink, webLink, projectId, buttonText}) {
     return(
         <div className="h-full">
-            <div className="flex flex-col h-full border-2 border-dark">
+            <div className="flex flex-col h-full border-[1px] border-dark rounded-sm">
                 <div className="relative flex p-4 aspect-[16/9] w-full">
                     <Image 
                     src={imgUrl}
