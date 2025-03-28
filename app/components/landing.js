@@ -15,10 +15,10 @@ export default function Landing() {
                     and <span className="text-accent">UX/UI</span>, I make sure user-centered design informs the build process.
                 </h3>
                 <div className="flex flex-col w-max">
-                    <a id="underline-inverted" href="/#about">Learn More About Me</a>
+                    <a id="underline" href="/innovation-hub">Innovation Hub Website Redesign</a>
                 </div>
                 <div className="flex flex-col w-max">
-                    <a id="underline" href="/#projects">See My Work</a>
+                    <a id="underline-inverted" href="/dejaBREW">Cafe-Finding Case Study</a>
                 </div>
             </div>
         </main>
