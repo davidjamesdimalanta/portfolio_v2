@@ -185,16 +185,11 @@ export default function DejaBrew() {
               I am now more adept at <span className='font-medium'>adapting to changing requirements</span> and collaborating effectively within a team to <span className='font-medium'>deliver solutions that truly resonate with the target audience</span>.<br /><br />
               Thank you for taking the time to read this case study.
             </span>
-            <a href='#dejabrew'>
-              <span id='underline' className='text-xl'>
-                Return to the top
-              </span>
-            </a>
           </div>
           </section>
 
           {/* Case Study Navigation */}
-      <section className="max-w-6xl mx-auto mt-12 p-12 border-t border-medium-light">
+      <section className="w-[80svw] mx-auto mt-12 p-12 border-t border-medium-light">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <Link 
             href={"/"} 
@@ -214,14 +209,14 @@ export default function DejaBrew() {
             >
               <path d="m15 18-6-6 6-6" />
             </svg>
-            Previous: Portfolio Website
+            Back to Home
           </Link>
           
           <Link 
-            href="/wearable-ux" 
+            href="/innovation-hub" 
             className="group flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors duration-300"
           >
-            Next: Wearable UX Case Study
+            Next: Innovation Hub Website Redesign
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" 

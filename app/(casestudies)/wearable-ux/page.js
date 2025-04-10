@@ -150,7 +150,7 @@ export default function InnovationHubCaseStudy() {
       <section className="mt-16 pt-8 border-t border-medium-light">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <Link 
-            href={"/"} 
+            href={"/innovation-hub"} 
             className="group flex items-center mb-4 sm:mb-0 px-6 py-3 bg-none border border-medium-light hover:bg-dark text-dark hover:text-white hover:border-dark rounded-md transition-colors duration-300"
           >
             <svg 
@@ -167,14 +167,14 @@ export default function InnovationHubCaseStudy() {
             >
               <path d="m15 18-6-6 6-6" />
             </svg>
-            Previous: Portfolio Website
+            Back to Home
           </Link>
           
           <Link 
-            href="/ux-internship" 
+            href="/dejaBREW" 
             className="group flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors duration-300"
           >
-            Next: UX Research Internship
+            Next: Cafe Finding App UX Case Study
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" 

@@ -42,34 +42,34 @@ export default function Navbar() {
         {/* Expanded Menu - includes links and close button */}
         {menuExpanded && (
           <div className=''>
-            <div className="fixed max-w-64 max-h-64 bottom-4 right-4 z-50 bg-transparent backdrop-blur-md rounded-lg shadow-2xl p-4">
-              
-              <div className="flex flex-col space-y-3">
+            <div className="fixed max-w-128 max-h-96 bottom-4 right-4 z-50 bg-transparent backdrop-blur-md rounded-lg shadow-2xl p-4">
+
+              <div className="flex flex-col">
                 <Link 
                   href="/" 
-                  className="font-dmSans text-lg font-medium hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  className="font-dmSans text-lg font-medium hover:bg-dark hover:text-white p-2 rounded transition-colors text-right"
                   onClick={() => setMenuExpanded(false)}
                 >
                   Home
                 </Link>
                 <Link 
                   href="/dejaBREW" 
-                  className="font-dmSans text-lg hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  className="font-dmSans text-lg hover:bg-dark hover:text-white p-2 rounded transition-colors text-right"
                   onClick={() => setMenuExpanded(false)}
                 >
-                  dejaBrew Case Study
+                  Cafe Finding App UX Case Study
                 </Link>
                 <Link 
                   href="/innovation-hub" 
-                  className="font-dmSans text-lg hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  className="font-dmSans text-lg hover:bg-dark hover:text-white p-2 rounded transition-colors text-right"
                   onClick={() => setMenuExpanded(false)}
                 >
-                  iHub Case Study
+                  Innovation Hub Website Redesign
                 </Link>
                 <Link 
-                  href="/JAV2025CV.pdf" 
+                  href="/davidjamesCV.pdf" 
                   target='_blank'
-                  className="font-dmSans text-lg hover:text-accent dark:hover:text-accent-dark transition-colors"
+                  className="font-dmSans text-lg hover:bg-dark hover:text-white p-2 rounded transition-colors text-right"
                   onClick={() => setMenuExpanded(false)}
                 >
                   CV
@@ -79,7 +79,7 @@ export default function Navbar() {
               <div className="flex justify-end items-start mt-4">
                 <button 
                   onClick={() => setMenuExpanded(false)}
-                  className="w-14 h-14 border-[1px] border-dark bg-transparent rounded-full flex items-center justify-center hover:scale-105 transition-transform"
+                  className="group w-14 h-14 border-[1px] border-dark bg-transparent rounded-full flex items-center justify-center hover:bg-dark transition-colors duration-300"
                 >
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -87,7 +87,7 @@ export default function Navbar() {
                     viewBox="0 0 24 24" 
                     strokeWidth="2" 
                     stroke="currentColor" 
-                    className="w-5 h-5 text-dark"
+                    className="w-5 h-5 text-dark group-hover:text-white transition-colors duration-300"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                   </svg>
