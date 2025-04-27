@@ -155,7 +155,7 @@ export default function SENaiCaseStudy() {
             Human relationships and interactions are one of the most important aspects of our lives, playing a significant role in our emotional well-being and overall happiness. In this speculative design project, We created SENai - a fictional company that highlights the ethical implications of using wearable AI technology for emotional monitoring.
           </p>
           <p className="mb-4 text-justify">
-            SENai offers "wearable affective computing" through smart glasses and contact lenses that claim to help users achieve "perfect" social interactions according to algorithmic recommendations. The project explores how such technologies might inadvertently reinforce social biases, prioritize efficiency over emotional complexity, and raise serious concerns about privacy and surveillance.
+            SENai offers &quot;wearable affective computing&quot; through smart glasses and contact lenses that claim to help users achieve &quot;perfect&quot; social interactions according to algorithmic recommendations. The project explores how such technologies might inadvertently reinforce social biases, prioritize efficiency over emotional complexity, and raise serious concerns about privacy and surveillance.
           </p>
           <p className="text-justify">
             By situating this within broader critiques of IoT and data practices, We reveal how technologies risk reinforcing structural inequalities and diminishing human autonomy in an AI-dominated society.
@@ -173,17 +173,17 @@ export default function SENaiCaseStudy() {
           
           <h3 className="text-lg font-medium mt-8 mb-4 text-medium">Hardware</h3>
           <p className="mb-4 text-justify">
-            Customers first purchase hardware - either monthly disposable contact lenses or smart glasses that directly track the user's eye movements, pupil dilation, and facial micro-expressions through embedded optometric sensors.
+            Users first purchase hardware - either monthly disposable contact lenses or smart glasses that directly track the user&apos;s eye movements, pupil dilation, and facial micro-expressions through embedded optometric sensors.
           </p>
           
           <h3 className="text-lg font-medium mt-8 mb-4 text-medium">Software</h3>
           <p className="mb-4 text-justify">
-            Users pair the hardware devices with the SENai app, which allows them to keep track of their social interactions and receive personalized recommendations for "improvement."
+            Users pair the hardware devices with the SENai app, which allows them to keep track of their social interactions and receive personalized recommendations for &quot;improvement.&quot;
           </p>
           
           <h3 className="text-lg font-medium mt-8 mb-4 text-medium">Application</h3>
           <p className="mb-4 text-justify">
-            Users activate SENai by wearing the lenses or glasses, then access the app which collects micro-data from eye movements, pupil dilation, and facial expressions of surrounding individuals. Feedback is delivered through subtle visual overlays that display customized guides for "smoother, more normal" interactions.
+            Users activate SENai by wearing the lenses or glasses, then access the app which collects micro-data from eye movements, pupil dilation, and facial expressions of surrounding individuals. Feedback is delivered through subtle visual overlays that display customized guides for &quot;smoother, more normal&quot; interactions.
           </p>
         </div>
       </section>
