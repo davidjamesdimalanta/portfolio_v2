@@ -129,7 +129,7 @@ export default function InnovationHubCaseStudy() {
           </div>
           
           <div className="border border-medium-light p-6 rounded-lg">
-            <h3 className="text-4xl font-bold mb-2">Improved CTA's clarity</h3>
+            <h3 className="text-4xl font-bold mb-2">Improved CTA&apos;s clarity</h3>
             <p className="mb-4">Created clear pathways to important content with strategically placed, action-oriented call-to-action buttons.</p>
           </div>
           
