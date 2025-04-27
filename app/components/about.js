@@ -80,15 +80,15 @@ export default function About() {
                         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-medium pb-2">About Me</h2>
                         <div className="text-base md:text-lg mb-8">
                             <p className="mb-4">
-                                Hey! my name is David James, and I am a 2nd year student at the{" "}  
+                                Hey! my name is David James, and I am an MI UXD candidate in the {" "}  
                                 <a 
-                                    className="text-accent dark:text-accent-dark hover:underline" href="https://ischool.utoronto.ca/"
+                                    className="text-accent dark:text-accent-dark hover:underline" href="https://ischool.utoronto.ca/master-of-information/user-experience-design/"
                                     target="_blank" 
                                     rel="noopener noreferrer"
                                 >
                                     Faculty of Information
                                 </a>{" "}
-                                at the University of Toronto, studying Human-Centered Design. What sets me apart is my unique blend of 
+                                at UofT. What sets me apart is my unique blend of 
                                 design thinking and technical expertise—I bridge the gap between user experience and front-end development, 
                                 ensuring that what I build is both functional and intuitive.
                             </p>
