@@ -118,17 +118,17 @@ export default function About() {
                                     rel="noopener noreferrer"
                                 >
                                     student-led design studio
-                                </a>. Outside of work, I read comics, and play video games.
+                                </a>. Outside of work, I go to the gym, I read comics, and play video games.
                             </p>
                         </div>
                     </div>
                     <div className="w-full md:w-1/3 flex justify-center md:justify-end mb-8 md:mb-0">
                         <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-medium">
                             <Image 
-                                src="/cc217327-1944-43a1-9406-d9df6c19f36f.jpg" 
+                                src="/photo.png" 
                                 alt="Profile Picture"
                                 fill
-                                className="object-cover"
+                                className="object-contain"
                             />
                         </div>
                     </div>
