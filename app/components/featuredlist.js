@@ -26,9 +26,7 @@ export default function FeatureList({ imgUrl, title, desc, tags, width, height, 
                         <Link 
                             href={webLink} 
                             id="underline" 
-                            className="flex w-max h-max font-medium" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
+                            className="flex w-max h-max font-medium"
                         >
                             {buttonText || "View Project"}
                         </Link>

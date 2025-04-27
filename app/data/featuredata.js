@@ -23,15 +23,15 @@ const FeaturedData = [
         buttonText: 'View Case Study',
     },
     {
-        imgUrl: '/project previews/Speculative-AI.png',
-        title: 'Wearable AI Product Page',
+        imgUrl: '/project previews/senai.png',
+        title: 'SENai - Wearable AI Product Page',
         desc: 'A speculative design project that explores: "What if our decision making was made by AI?"',
-        tags: ['UX Design', 'Figma', 'Speculative Design'],
+        tags: ['Figma', 'React', 'Next.js', 'Tailwind CSS', 'AWS'],
         width: 500,
         height: 500,
-        webLink: '',
-        projectId: "speculative-ai",
-        buttonText: 'Coming Soon',
+        webLink: '/wearable-ux',
+        projectId: "senai",
+        buttonText: 'View Design',
     },
 ]
 

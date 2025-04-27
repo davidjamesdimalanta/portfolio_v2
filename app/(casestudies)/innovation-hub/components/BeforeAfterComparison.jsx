@@ -12,7 +12,7 @@ export default function BeforeAfterComparison() {
   const [rightPanelSize, setRightPanelSize] = useState(50);
 
   return (
-    <div className="mb-8">
+    <div className=" hidden md:block mb-8">
       <p className="text-xl mb-2"><strong>Use the slider to compare the before and after of the landing page.</strong></p>
       <ResizablePanelGroup 
         direction="horizontal" 

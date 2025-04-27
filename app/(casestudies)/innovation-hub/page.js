@@ -3,7 +3,6 @@ import BeforeAfterComparison from './components/BeforeAfterComparison'
 import Link from 'next/link'
 import ProblemSpace from './components/ProblemSpace'
 
-
 export default function InnovationHubCaseStudy() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-20 md:py-12">
@@ -22,39 +21,46 @@ export default function InnovationHubCaseStudy() {
 
       {/* Project Overview */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">Project Overview</h2>
+        <h2 className="text-section text-xl font-medium mb-2">Project Overview</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="border-l-2 border-medium-light p-6">
-            <h3 className="font-semibold mb-3">Timeline</h3>
+            <h3 className="text-xl font-semibold mb-3 flex items-center">
+              {/* Clock Icon */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mr-2 inline-block">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              Timeline
+            </h3>
             <p>April 2024 - June 2024</p>
           </div>
           <div className="border-l-2 border-medium-light p-6">
-            <h3 className="font-semibold mb-3">My Role</h3>
+            <h3 className="text-xl font-semibold mb-3 flex items-center">
+              {/* User Icon */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 mr-2 inline-block">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+              </svg>
+              Role
+            </h3>
             <p>UX Designer, Frontend Developer Lead</p>
           </div>
           <div className="border-l-2 border-medium-light p-6">
-            <h3 className="font-semibold mb-3">Tools Used</h3>
+            <h3 className="text-xl font-semibold mb-3 flex items-center">
+              {/* Wrench/Screwdriver Icon */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 mr-2 inline-block">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+              </svg>
+              Tools
+            </h3>
             <p>Figma, Wordpress, HTML, CSS, JavaScript</p>
           </div>
         </div>
       </section>
 
       {/* Research & Discovery */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">Research & Discovery</h2>
-
-        {/* <h3 className="text-2xl font-semibold mb-4">Problem Space</h3>
-        <div className="border border-medium-light p-6 rounded-lg mb-8">
-          <ul className="list-disc pl-6 space-y-3 text-xl">
-            <li><strong>Lack of Clarity:</strong> Stakeholders couldn&apos;t understand what Innovation Hub was, despite reading the landing page</li>
-            <li><strong>Poor Space Utilization:</strong> Excessive white space that didn&apos;t effectively communicate information</li>
-            <li><strong>Unclear Impact:</strong> Difficulty understanding the Hub&apos;s achievements and value to the university community</li>
-          </ul>
-        </div> */}
-
-
-        <h3 className="text-2xl font-semibold mb-4">Stakeholder Analysis</h3>
-        <p className="text-xl mb-4">In order to understand who this website serves and what pain points they may have, we conducted interviews with the Innovation Hub&apos;s stakeholders. Here&apos;s what we found:</p>
+      <section className="mb-4">
+        <h2 className="text-section text-xl font-medium mb-2">Research & Discovery</h2>
+        <h3 className="text-4xl font-bold mb-4">Talking to Stakeholders</h3>
+        <p className="text-xl mb-4">In order to identify who this website serves and what pain points they may have, we conducted interviews with the Innovation Hub&apos;s stakeholders. Here&apos;s what we found:</p>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="border border-medium-light p-6 rounded-lg">
             <h4 className="font-bold mb-2">Students</h4>
@@ -69,20 +75,16 @@ export default function InnovationHubCaseStudy() {
             <p>Visitors from outside U of T who need to quickly understand the Innovation Hub&apos;s purpose and impact.</p>
           </div>
         </div>
+        <ProblemSpace />
       </section>
-      <ProblemSpace />
+      
 
       {/* Design Process */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">Design Process</h2>
-        
-        <div className="mb-10">
-          <h3 className="text-2xl font-semibold mb-4">User Research Methods</h3>
-          <p className="mb-4">User interviews, A/B testing, and usability testing</p>
-        </div>
+        <h2 className="text-section text-xl font-medium mb-2">Design Process</h2>
         
         <div>
-          <h3 className="text-2xl font-semibold mb-4">Design Iterations</h3>
+          <h3 className="text-4xl font-bold mb-2">The Different Iterations</h3>
           <p className="mb-4">After creating multiple iterations of the landing page, we conducted usability evaluations with users to see which variations were most effective at communicating the Innovation Hub&apos;s purpose and impact.</p>
           <figure className="mb-4">
             <Image 
@@ -99,11 +101,11 @@ export default function InnovationHubCaseStudy() {
 
       {/* Solutions */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">Solutions Implemented</h2>
+        <h2 className="text-section text-xl font-medium mb-2">Solutions Implemented</h2>
         
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="relative border border-medium-light p-6 rounded-lg overflow-hidden min-h-[350px]">
-            <h3 className="text-xl font-semibold mb-3">Clear Language</h3>
+            <h3 className="text-4xl font-bold mb-2">Clear Language</h3>
             <p className="mb-4">Simplified and refined content to ensure visitors immediately understand the Innovation Hub&apos;s purpose and offerings.</p>
             <Image 
               src="/ihub assets/clear_language.png" 
@@ -115,7 +117,7 @@ export default function InnovationHubCaseStudy() {
           </div>
           
           <div className="relative border border-medium-light p-6 rounded-lg overflow-hidden min-h-[350px]">
-            <h3 className="text-xl font-semibold mb-3">Performance Metrics</h3>
+            <h3 className="text-4xl font-bold mb-2">Performance Metrics</h3>
             <p className="mb-4">Added concrete metrics (58 projects completed, 1700+ student stories heard, 120+ staff stories) to demonstrate measurable impact.</p>
             <Image 
               src="/ihub assets/What We Do.png" 
@@ -127,12 +129,12 @@ export default function InnovationHubCaseStudy() {
           </div>
           
           <div className="border border-medium-light p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-3">Improved CTAs</h3>
+            <h3 className="text-4xl font-bold mb-2">Improved CTA's clarity</h3>
             <p className="mb-4">Created clear pathways to important content with strategically placed, action-oriented call-to-action buttons.</p>
           </div>
           
           <div className="border border-medium-light p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-3">Enhanced Visual Design</h3>
+            <h3 className="text-4xl font-bold mb-2">Updated Visuals</h3>
             <p className="mb-4">Improved spacing, formatting, and incorporated relevant graphics to create a more engaging user experience.</p>
           </div>
         </div>
@@ -140,18 +142,37 @@ export default function InnovationHubCaseStudy() {
       
       {/* Results & Impact */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">Results & Impact</h2>
-        <p className="mb-8">Increased System Usability Scale (SUS) score +10, and users reported that the redesigned site was more user-friendly and effective.</p>
-
+        <h2 className="text-section text-xl font-medium mb-2">Results & Impact</h2>
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="border border-medium-light p-6 rounded-lg">
+            <h3 className="text-4xl font-bold mb-2">Usability Improvements</h3>
+            <p className="mb-8">Increased <a href="https://www.nngroup.com/articles/measuring-perceived-usability/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">System Usability Scale (SUS)</a> score +10, from 65 to 75.</p>
+        </div>
+        <div className="border border-medium-light p-6 rounded-lg">
+            <h3 className="text-4xl font-bold mb-2">User Feedback</h3>
+            <p className="mb-8">Stakeholders reported that the redesigned site was more clear on its purpose and more effective at guiding them to take action.</p>
+        </div>
+        </div>
         {/* Before/After Comparison with Resizable Component */}
-        <BeforeAfterComparison />
+        <BeforeAfterComparison 
+        />
       </section>
       
       {/* Reflections */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6">Reflections</h2>
+        <h2 className="text-section text-xl font-medium mb-2">Reflections</h2>
         <p className="mb-4">This project was a great opportunity to work with stakeholders to improve the Innovation Hub&apos;s website. It was also a great opportunity to learn about the importance of clear language and visual design in user experience.</p>
-        <button className=" border border-medium-light font-semibold px-4 py-2 rounded-md">See the full website here</button>
+        <a 
+          href="https://www.utoronto.ca/innovation-hub" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <button 
+          className="group flex items-center mb-4 sm:mb-0 px-6 py-3 bg-none border border-medium-light hover:bg-dark text-dark hover:text-white hover:border-dark rounded-md transition-colors duration-300"
+        >
+          See the full website here
+        </button>
+        </a>
       </section>
 
       {/* Case Study Navigation */}

@@ -134,7 +134,7 @@ export default function About() {
                     </div>
                 </div>
                 
-                <h2 className="text-2xl font-semibold mb-4 border-b-2 border-medium pb-2">Where I&apos;ve Worked</h2>
+                <h2 className="text-2xl font-semibold border-b-2 border-medium pb-2">Where I&apos;ve Worked</h2>
                 <div className="w-full flex flex-col md:flex-row gap-4">
                     <div 
                         ref={tabsContainerRef}

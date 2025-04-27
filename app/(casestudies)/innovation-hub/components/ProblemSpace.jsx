@@ -56,8 +56,7 @@ export default function ProblemSpace() {
 
     return (
         <section className="min-h-[600px]">
-            <h2 className="text-2xl font-bold mb-4">Problem Space</h2>
-            <p className="text-xl mb-4">Through usability evaluations, we identified three main pain points that users experienced with the Innovation Hub&apos;s website.</p>
+            <h2 className="text-4xl font-bold mb-4">The Problem</h2>
             <div className="flex flex-col-reverse md:flex-row gap-2 md:gap-8">
                 {/* Left side - Tabs */}
                 <div className="md:w-1/2 flex flex-col gap-4 min-h-[450px] mt-8 md:mt-0">

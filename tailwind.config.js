@@ -20,6 +20,7 @@ module.exports = {
   			light: '#BFD2BF',
   			snow: '#FFF9FB',
   			black: '#252627',
+			section: '#A4998E',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
