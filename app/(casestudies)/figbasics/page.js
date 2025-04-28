@@ -61,7 +61,7 @@ export default function Figbasics() {
                 <h3 className="text-3xl font-semibold mb-4">Democratizing Figma</h3>
                   <p className="mb-4">
                     We wanted to create a comprehensive set of training modules that make Figma more accessible to beginners or those outside of the design field. <br /> <br />
-                    We also wanted to teach tech literacy skills that aren't exclusive to Figma.
+                    We also wanted to teach tech literacy skills that aren&apos;t exclusive to Figma.
                   </p>
                 </div>
                 <div className="md:w-1/2 flex justify-center items-center">
@@ -102,7 +102,7 @@ export default function Figbasics() {
             {/* Concluding thought */}
             <div className="mt-8 p-6 border-l-4 border-medium-light">
               <p className="italic">
-                "Through Figma, we can bridge the gap in creative digital skills and empower students with the design diversity and creative freedom needed for future success in various fields."
+                &quot;Through Figma, we can bridge the gap in creative digital skills and empower students with the design diversity and creative freedom needed for future success in various fields.&quot;
               </p>
             </div>
           </section>
@@ -135,7 +135,7 @@ export default function Figbasics() {
               </div>
               <div className="p-5 bg-light/40 rounded-lg border-l-4 border-primary mb-4">
                 <p className="mb-4 font-medium text-lg">
-                  <span className="text-primary font-bold">Theory + Practice:</span> Each module combines theoretical concepts with hands-on practice, allowing students to immediately apply what they've learned through guided exercises and creative projects.
+                  <span className="text-primary font-bold">Theory + Practice:</span> Each module combines theoretical concepts with hands-on practice, allowing students to immediately apply what they&apos;ve learned through guided exercises and creative projects.
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function Figbasics() {
                 </p>
                 <div className="p-4 bg-primary/10 rounded-lg border border-primary/30 mt-6">
                   <p className="italic">
-                    "By focusing on these four fundamental areas, we ensure students develop the essential skills needed before moving to more complex design concepts."
+                    &quot;By focusing on these four fundamental areas, we ensure students develop the essential skills needed before moving to more complex design concepts.&quot;
                   </p>
                 </div>
               </div>
@@ -199,7 +199,7 @@ export default function Figbasics() {
             
             <div className="mb-8">
               <p className="mb-6">
-                Unlike traditional video tutorials or static walkthrough pages, our modules are designed to be experienced directly within Figma's canvas. This in-canvas approach creates a more immersive, hands-on learning environment where students can immediately practice what they're learning without switching contexts.
+                Unlike traditional video tutorials or static walkthrough pages, our modules are designed to be experienced directly within Figma&apos;s canvas. This in-canvas approach creates a more immersive, hands-on learning environment where students can immediately practice what they&apos;re learning without switching contexts.
               </p>
               
               <div className="p-5 bg-light/40 rounded-lg border-l-4 border-primary mb-6">
@@ -233,13 +233,13 @@ export default function Figbasics() {
                   </p>
                   <ul className="list-disc pl-6 space-y-3 mb-6">
                     <li><span className="font-medium">Reveal information at their own pace</span>, reducing cognitive overload and allowing for better information processing</li>
-                    <li><span className="font-medium">Focus on one concept at a time</span>, revealing explanations only when they're ready to move forward</li>
+                    <li><span className="font-medium">Focus on one concept at a time</span>, revealing explanations only when they&apos;re ready to move forward</li>
                     <li><span className="font-medium">Review specific sections</span> without scrolling through the entire module</li>
                     <li><span className="font-medium">Create a sense of accomplishment</span> as they progressively reveal or hide sections and complete each section</li>
                   </ul>
                   <div className="p-4 bg-primary/10 rounded-lg border border-primary/30">
                     <p className="italic">
-                      "The show/hide interactions foster a more active learning approach where students engage with the content at their own rhythm, supporting our goal of creating a truly self-paced learning environment."
+                      &quot;The show/hide interactions foster a more active learning approach where students engage with the content at their own rhythm, supporting our goal of creating a truly self-paced learning environment.&quot;
                     </p>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ export default function Figbasics() {
             <div className="bg-primary/5 p-6 rounded-lg border border-primary/20 mb-8">
               <h4 className="text-xl font-semibold mb-3">Future Plans</h4>
               <p className="mb-4">
-                We're currently in the final stages of polishing these learning modules. Once ready, they'll be publicly accessible through the Figma Community space. This will allow:
+                We&apos;re currently in the final stages of polishing these learning modules. Once ready, they&apos;ll be publicly accessible through the Figma Community space. This will allow:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li><span className="font-medium">Free access</span> for anyone looking to learn Figma</li>

@@ -233,10 +233,10 @@ export default function SENaiCaseStudy() {
           </Link>
           
           <Link 
-            href="/dejaBREW" 
+            href="/figbasics" 
             className="group flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors duration-300"
           >
-            Next Project: dejaBREW
+            Next Project: Figbasics
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="24" 

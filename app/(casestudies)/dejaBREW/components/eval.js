@@ -7,7 +7,7 @@ export default function Evaluations() {
                     <li className="text-lg">Users liked the user interface and features.</li>
                     <li className="text-lg">Users appreciated icons and the app&apos;s focus on café enthusiasts.</li>
                     <li className="text-lg">Users praised Instagram Reels integration and similar café suggestions.</li>
-                    <li className="text-lg">Users liked the detailed coffee information (beans, machines) and social features in "Java Junction."</li>
+                    <li className="text-lg">Users liked the detailed coffee information (beans, machines) and social features in &quot;Java Junction.&quot;</li>
                     <li className="text-lg">Overall aesthetic and layout met expectations for a café-centric app.</li>
                 </ul>
             </div>
