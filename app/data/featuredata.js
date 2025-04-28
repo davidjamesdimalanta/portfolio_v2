@@ -1,17 +1,5 @@
 const FeaturedData = [
     {
-        imgUrl: '/project previews/dejabrew.png',
-        title: 'DejaBREW Café Discovery App',
-        desc: 'How can we provide up-to-date and personalized information to help users find the perfect café?',
-        tags: ['UX Research', 'Usability Testing', 'Prototyping', 'Figma'],
-        width: 500,
-        height: 300,
-        gitLink: 'https://www.figma.com/proto/P3poQA9v7CbsnPmd0iaxGv/D%C3%A9jaBrew-MidFi?type=design&node-id=1-2&t=HLMyOAegiumWSGxX-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1',
-        webLink: '/dejaBREW',
-        projectId: "dejabrew",
-        buttonText: 'View Case Study',
-    },
-    {
         imgUrl: '/project previews/ihublanding.png',
         title: 'Innovation Hub Website',
         desc: 'A redesign of the Innovation Hub website to improve usability and design.',
@@ -32,6 +20,29 @@ const FeaturedData = [
         webLink: '/wearable-ux',
         projectId: "senai",
         buttonText: 'View Design',
+    },
+    {
+        imgUrl: '/project previews/figbasics.png',
+        title: 'Figma Basics Learning Modules',
+        desc: 'A series of learning modules designed to teach Figma basics to students.',
+        tags: ['Figma', 'Learning Modules', 'UX Design', 'Educational Design'],
+        width: 500,
+        height: 300,
+        webLink: '/figbasics',
+        projectId: "figbasics",
+        buttonText: 'View Capstone Project',
+    },
+    {
+        imgUrl: '/project previews/dejabrew.png',
+        title: 'DejaBREW Café Discovery App',
+        desc: 'How can we provide up-to-date and personalized information to help users find the perfect café?',
+        tags: ['UX Research', 'Usability Testing', 'Prototyping', 'Figma'],
+        width: 500,
+        height: 300,
+        gitLink: 'https://www.figma.com/proto/P3poQA9v7CbsnPmd0iaxGv/D%C3%A9jaBrew-MidFi?type=design&node-id=1-2&t=HLMyOAegiumWSGxX-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1',
+        webLink: '/dejaBREW',
+        projectId: "dejabrew",
+        buttonText: 'View Case Study',
     },
 ]
 
