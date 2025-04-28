@@ -8,7 +8,8 @@ export default function MobileBanner() {
                 width={300}
                 height={900}
                 src={'/mockups/c915d2b6-350c-4ca5-86e0-bc7a87e783f8.png'}
-                alt={"mockup"}
+                alt={"Mobile app mockup for small screens"}
+                className="rounded-md border border-medium-light"
             />
         </div>
     )

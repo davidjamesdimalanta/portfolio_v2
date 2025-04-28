@@ -8,8 +8,9 @@ export default function Banner() {
                     src={'/mockups/mockup3.png'}
                     width={251}
                     height={800}
-                    alt={"desc"}
+                    alt={"Mobile app mockup showing cafe interface"}
                     priority
+                    className="rounded-md border border-medium-light"
                 />
                 
             </div>
@@ -18,8 +19,9 @@ export default function Banner() {
                     src={'/mockups/mockup2.png'}
                     width={250}
                     height={800}
-                    alt={"desc"}
+                    alt={"Mobile app mockup showing cafe details"}
                     priority
+                    className="rounded-md border border-medium-light"
                 />
             </div>
             <div className="w-max h-[120svh] flex flex-col justify-start pt-24">
@@ -27,8 +29,9 @@ export default function Banner() {
                     src={'/mockups/c915d2b6-350c-4ca5-86e0-bc7a87e783f8.png'}
                     width={251}
                     height={800}
-                    alt={"desc"}
+                    alt={"Mobile app mockup showing cafe recommendations"}
                     priority
+                    className="rounded-md border border-medium-light"
                 />
             </div>
         </div>

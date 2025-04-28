@@ -99,7 +99,7 @@ export default function SENaiCaseStudy() {
       {/* Hero Section */}
       <div className="mb-16">
         <h1 className="text-4xl font-bold">SENai: A Critical Speculative Design</h1>
-        <h2 className="text-3xl mb-6">Exploring the ethical implications of wearable affective computing</h2>
+        <h2 className="text-2xl mb-6">Exploring the ethical implications of wearable affective computing</h2>
         <CarouselGallery 
           images={galleryImages}
           className="w-full hidden md:block"
