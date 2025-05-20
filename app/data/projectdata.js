@@ -57,18 +57,6 @@ const ProjectData = [
         projectId: "next-meta-data",
         buttonText: 'View Web App',
     },
-    {
-        imgUrl: '/project previews/EHS.png',
-        title: 'Empire Health Systems Website',
-        desc: 'How can we streamline manual processes and improve patient intake?',
-        tags: ['React','TailwindCSS', 'MongoDB','Framer-motion', 'Google OAuth','Google Apps Scripts', 'AWS SDK 3', 'HTTPS'],
-        width: 600,
-        height: 500,
-        gitLink: 'https://github.com/davidjamesdimalanta/EmpireHealthSystems',
-        webLink: 'https://empirehsi.com/',
-        projectId: "empire-health-systems",
-        buttonText: 'View Website',
-    },
 ]
 
 export default ProjectData
