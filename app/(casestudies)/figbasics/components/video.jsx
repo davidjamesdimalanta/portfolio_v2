@@ -25,7 +25,7 @@ export default function Video() {
         autoPlay
         loop
         muted
-        className="w-auto h-full object-contain"
+        className="w-auto h-auto object-contain"
         poster="/figbasics/sandbox.png"
         onLoadedData={(e) => {
           // Hide the loading animation when video is ready
