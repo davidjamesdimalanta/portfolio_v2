@@ -103,14 +103,7 @@ export default function About() {
                                 >
                                     student-led non-profit
                                 </a>, a{" "}
-                                <a 
-                                    className="text-accent dark:text-accent-dark hover:underline" 
-                                    href="https://empirehsi.com/" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                >
-                                    home health & hospice solutions provider
-                                </a>, and a{" "}
+                                    home health & hospice solutions provider, and a{" "}
                                 <a 
                                     className="text-accent dark:text-accent-dark hover:underline" 
                                     href="https://blogs.studentlife.utoronto.ca/innovationhub/"
