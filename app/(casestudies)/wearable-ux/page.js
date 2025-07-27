@@ -100,6 +100,36 @@ export default function SENaiCaseStudy() {
       <div className="mb-16">
         <h1 className="text-4xl font-bold">SENai: A Critical Speculative Design</h1>
         <h2 className="text-2xl mb-6">Exploring the ethical implications of wearable affective computing</h2>
+        
+        {/* Project Reel Videos */}
+        <div className="mb-6 space-y-4">
+          <div>
+            <h3 className="text-lg font-medium mb-2">Landing Page Demo</h3>
+            <video 
+              autoPlay
+              muted
+              loop
+              className="w-full rounded-md border border-medium-light"
+            >
+              <source src="/videos/senai-landing.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          
+          <div>
+            <h3 className="text-lg font-medium mb-2">Feature Scroll Demo</h3>
+            <video 
+              autoPlay
+              muted
+              loop
+              className="w-full rounded-md border border-medium-light"
+            >
+              <source src="/videos/senai-featurescroll.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        
         <CarouselGallery 
           images={galleryImages}
           className="w-full hidden md:block"

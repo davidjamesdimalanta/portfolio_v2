@@ -10,6 +10,21 @@ export default function InnovationHubCaseStudy() {
       <div className="mb-16">
         <h1 className="text-4xl font-bold">Innovation Hub Website Redesign</h1>
         <h2 className="text-2xl mb-6">Improving clarity, impact, and user experience for the University of Toronto&apos;s Innovation Hub.</h2>
+        
+        {/* Project Reel Video */}
+        <div className="mb-6">
+          <video 
+            autoPlay
+            muted
+            loop
+            className="w-full rounded-md border border-medium-light"
+            poster="/ihub assets/Landing_Snapshot_new.png"
+          >
+            <source src="/videos/innovationhub-landing.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        
         <Image 
           src="/ihub assets/Landing_Snapshot_new.png" 
           alt="Innovation Hub Redesigned Landing Page" 

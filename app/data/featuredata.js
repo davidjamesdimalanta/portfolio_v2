@@ -9,6 +9,7 @@ const FeaturedData = [
         webLink: '/innovation-hub',
         projectId: "ihub-website",
         buttonText: 'View Case Study',
+        projectType: 'design',
     },
     {
         imgUrl: '/project previews/senai.png',
@@ -20,6 +21,7 @@ const FeaturedData = [
         webLink: '/wearable-ux',
         projectId: "senai",
         buttonText: 'View Design',
+        projectType: 'design',
     },
     {
         imgUrl: '/project previews/figbasics.png',
@@ -31,6 +33,7 @@ const FeaturedData = [
         webLink: '/figbasics',
         projectId: "figbasics",
         buttonText: 'View Capstone Project',
+        projectType: 'design',
     },
     {
         imgUrl: '/project previews/dejabrew.png',
@@ -43,6 +46,7 @@ const FeaturedData = [
         webLink: '/dejaBREW',
         projectId: "dejabrew",
         buttonText: 'View Case Study',
+        projectType: 'design',
     },
 ]
 
